@@ -1,63 +1,72 @@
-import Head from "next/head";
-import styles from "../styles/Home.module.css";
+import Header from "../components/header";
+
+import { Container, Row, Col } from "react-bootstrap";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Estúdio Niterói</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    <>
+      <Header />
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>Estúdio Niterói</h1>
+      <section className="section-hero">
+        <Container></Container>
+      </section>
 
-        <p className={styles.description}>
-          Get started by editing{" "}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
+      <section className="section-services">
+        <Container>
+          <h1>Serviços</h1>
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+          <Row>
+            <Col md={4}>
+              <div className="item-service">
+                <h2>Branding</h2>
+                <ul>
+                  <li>Inovação</li>
+                  <li>Design de Serviços</li>
+                  <li>Propósito de Marca</li>
+                  <li>User Experience (UX)</li>
+                </ul>
+              </div>
+            </Col>
+            <Col md={4}>
+              <div className="item-service">
+                <h2>Conteúdo</h2>
+                <ul>
+                  <li>Conteúdo para Redes Sociais</li>
+                  <li>Produção de Vídeos</li>
+                  <li>Conteúdo para Blogs</li>
+                  <li>Copywriting (sites, blogs e lojas)</li>
+                  <li>Fotografia</li>
+                </ul>
+              </div>
+            </Col>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
+            <Col md={4}>
+              <div className="item-service">
+                <h2>Marketing</h2>
+                <ul>
+                  <li>Gestão de Redes Sociais</li>
+                  <li>Gestão de Anúncios (Google Ads, Facebook Ads)</li>
+                  <li>Criação de sites</li>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
+                  <li>Criação de lojas virtuais</li>
+                </ul>
+              </div>
+            </Col>
+          </Row>
 
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
+          <a href="#">Solicite um orçamento</a>
+        </Container>
+      </section>
 
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{" "}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
+      <section>
+        <Container></Container>
+      </section>
+
+      <footer>
+        <Container>
+          <p>Estúdio Niterói - NTR®</p>
+        </Container>
       </footer>
-    </div>
+    </>
   );
 }
