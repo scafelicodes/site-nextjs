@@ -39,7 +39,13 @@ export default function Bio() {
 
           <li>
             <a target="_blank" href="https://herocontent.com.br">
-              <i class="fas fa-mask"></i> Método Super Hero
+              <i class="fas fa-mask"></i> Método Hero Content
+            </a>
+          </li>
+
+          <li>
+            <a target="_blank" href="https://herocontent.com.br">
+              <i class="fas fa-mask"></i> Super Hero Box
             </a>
           </li>
 

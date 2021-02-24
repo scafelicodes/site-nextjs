@@ -9,7 +9,10 @@ export default function Header() {
       </Head>
 
       <header>
-        <Container>header</Container>
+        <Container>
+          <h3>Estúdio Niterói - NTR®</h3>
+          <p className="lead">BRANDING + CONTEÚDO + MARKETING</p>
+        </Container>
       </header>
     </>
   );

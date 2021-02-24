@@ -23,6 +23,7 @@ export default function Home() {
                   <li>Inovação</li>
                   <li>Design de Serviços</li>
                   <li>Propósito de Marca</li>
+                  <li>Posicionamento estratégico</li>
                   <li>User Experience (UX)</li>
                 </ul>
               </div>
@@ -45,7 +46,7 @@ export default function Home() {
                 <h2>Marketing</h2>
                 <ul>
                   <li>Gestão de Redes Sociais</li>
-                  <li>Gestão de Anúncios (Google Ads, Facebook Ads)</li>
+                  <li>Gestão de Anúncios (Google e Facebook)</li>
                   <li>Criação de sites</li>
 
                   <li>Criação de lojas virtuais</li>
@@ -54,7 +55,12 @@ export default function Home() {
             </Col>
           </Row>
 
-          <a href="#">Solicite um orçamento</a>
+          <div className="cta-services text-center">
+            <h2>Vamos começar?</h2>
+            <a className="link-default" href="#">
+              Solicite um orçamento
+            </a>
+          </div>
         </Container>
       </section>
 
