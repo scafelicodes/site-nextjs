@@ -20,63 +20,26 @@ h6,
   font-weight: 700 !important;
 }
 
-header {
-  background: #000000;
+.hero {
+  height: 100vh;
+  background: #202020;
   color: #ffffff;
-  padding: 50px 0;
-  text-align: center;
-}
 
-.section-services {
-  background-color: #e1e1e1;
-
-  h1 {
-    text-align: center;
-    padding: 30px 0;
-  }
-
-  .cta-services {
-    padding: 15px 0 40px;
-    h2 {
-      margin-bottom: 20px;
-    }
-  }
-
-  .item-service {
-    background: #ffffff;
-    border-radius: 5px;
-    padding: 20px;
-    text-align: center;
+  p {
     margin-bottom: 20px;
+  }
 
-    ul {
-      margin: 0;
-      padding: 0;
+  .link-default {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    padding: 15px 25px;
+    display: inline-block;
 
-      li {
-        list-style: none;
-        line-height: 30px;
-      }
+    &:hover {
+      text-decoration: none;
     }
   }
-}
-
-.link-default {
-  display: inline-block;
-  background: #3a9bf8;
-  color: #ffffff;
-  padding: 15px 25px;
-  border-radius: 5px;
-
-  &:hover {
-    text-decoration: none;
-    color: #ffffff;
-  }
-}
-
-footer {
-  padding: 50px 0;
-  text-align: center;
 }
 
 .bio {
