@@ -7,7 +7,11 @@ export default function Bio() {
   return (
     <>
       <Head>
-        <title>BIO - ESTÚDIO NITERÓI | NTR®</title>
+        <title>BIO - ESTÚDIO NITERÓI</title>
+        <link
+          rel="shortcut icon"
+          href="https://estudioniteroi.com.br/fav.png"
+        />
       </Head>
 
       <Container className="bio">
@@ -21,7 +25,7 @@ export default function Bio() {
           />
 
           <h1>
-            Estúdio Niterói - NTR® <i class="fas fa-check-circle"></i>
+            Estúdio Niterói <i class="fas fa-check-circle"></i>
           </h1>
           <p>BRANDING, CONTEÚDO & MARKETING</p>
         </div>

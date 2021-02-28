@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 
 import { Container, Row, Col } from "react-bootstrap";
 
@@ -7,12 +8,24 @@ export default function Index() {
     <>
       <Head>
         <title>ESTÚDIO NITERÓI - BRANDING, CONTEÚDO & MARKETING</title>
+        <link
+          rel="shortcut icon"
+          href="https://estudioniteroi.com.br/fav.png"
+        />
       </Head>
 
       <section className="hero d-flex align-items-center">
         <Container>
           <div className="text-center">
-            <h3>Estúdio Niterói - NTR®</h3>
+            <Image
+              src="/logo.png"
+              alt="Estúdio Niterói"
+              width={50}
+              height={50}
+              className="perfil-bio"
+            />
+
+            <h3>Estúdio Niterói</h3>
             <p>BRANDING, CONTEÚDO & MARKETING</p>
 
             <a

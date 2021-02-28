@@ -17,13 +17,17 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-weight: 700 !important;
+  // font-weight: 700 !important;
 }
 
 .hero {
   height: 100vh;
-  background: #202020;
+  background: #2c2c2c;
   color: #ffffff;
+
+  h3 {
+    margin-top: 10px;
+  }
 
   p {
     margin-bottom: 20px;
@@ -44,6 +48,8 @@ h6,
 
 .bio {
   font-family: "Poppins", sans-serif;
+
+  color: #2c2c2c;
 
   padding: 50px 0px;
 
@@ -72,7 +78,7 @@ h6,
       width: 100%;
 
       a {
-        background: #303030;
+        background: #2c2c2c;
         color: #ffffff;
         display: inline-block;
         margin-bottom: 20px;
