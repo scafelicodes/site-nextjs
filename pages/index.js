@@ -1,43 +1,45 @@
 import Head from "next/head";
 import Image from "next/image";
 
+import Header from "./../components/header";
+import Footer from "./../components/footer";
+import Hero from "./../components/hero";
+
 import { Container, Row, Col } from "react-bootstrap";
 
 export default function Index() {
   return (
     <>
       <Head>
-        <title>ESTÚDIO NITERÓI - BRANDING, CONTEÚDO & MARKETING</title>
-        <link
-          rel="shortcut icon"
-          href="https://estudioniteroi.com.br/fav.png"
-        />
+        <title>Scafeli - Produtora de Conteúdos Digitais</title>
       </Head>
 
-      <section className="hero d-flex align-items-center">
+      <Header />
+
+      <Hero />
+
+      <section className="about">
         <Container>
-          <div className="text-center">
-            <Image
-              src="/logo.png"
-              alt="Estúdio Niterói"
-              width={50}
-              height={50}
-              className="perfil-bio"
-            />
-
-            <h3>Estúdio Niterói</h3>
-            <p>BRANDING, CONTEÚDO & MARKETING</p>
-
-            <a
-              className="link-default"
-              target="_blank"
-              href="http://bit.ly/orcamentoestudioniteroi"
-            >
-              Solicite um orçamento
-            </a>
-          </div>
+          <Row className="d-flex align-items-center">
+            <Col md={6}>
+              <p>Entregamos experiências, não anúncios.</p>
+              <h3>
+                Criamos parcerias para fornecer conteúdos incríveis e campanhas
+                publicitárias com resultados reais.
+              </h3>
+              <p>
+                Desde 2014, já são centenas de clientes atendidos em todo o
+                mundo e mais de 1 bilhão de pessoas impactadas pelo nosso
+                trabalho.
+              </p>
+              <p>É apenas o começo.</p>
+            </Col>
+            <Col md={6}>imagem</Col>
+          </Row>
         </Container>
       </section>
+
+      <Footer />
     </>
   );
 }
