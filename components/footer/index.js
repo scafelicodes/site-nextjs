@@ -16,7 +16,7 @@ export default function Footer() {
           </Col>
 
           <Col md={12}>
-            <p>© 2021 Scafeli. Todos os direitos reservados.</p>
+            <p>© 2021 Estúdio Niterói.</p>
           </Col>
         </Row>
       </Container>

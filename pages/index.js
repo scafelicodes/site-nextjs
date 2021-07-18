@@ -11,7 +11,7 @@ export default function Index() {
   return (
     <>
       <Head>
-        <title>Scafeli - Produtora de Conteúdos Digitais</title>
+        <title>Estúdio Niterói - Branding, Audiovisual e Internet</title>
       </Head>
 
       <Header />

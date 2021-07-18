@@ -6,7 +6,7 @@ export default function Header() {
       <header>
         <Container>
           <Row>
-            <Col md={4}>Scafeli</Col>
+            <Col md={4}>Estúdio Niterói</Col>
           </Row>
         </Container>
       </header>
