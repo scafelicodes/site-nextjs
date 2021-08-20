@@ -10,19 +10,14 @@ import { Container, Row, Col } from "react-bootstrap";
 export default function Index() {
   return (
     <>
-      <Head>
-        <title>Estúdio Niterói - Branding, Audiovisual e Internet</title>
-      </Head>
-
       <Header />
-
       <Hero />
-
       <section className="about">
         <Container>
           <Row className="d-flex align-items-center">
             <Col md={6}>
-              <p>Entregamos experiências, não anúncios.</p>
+              {/* <img src="xp.svg" /> */}
+              {/* <p>Entregamos experiências, não anúncios.</p> */}
               <h3>
                 Criamos parcerias para fornecer conteúdos incríveis e campanhas
                 publicitárias com resultados reais.
@@ -34,11 +29,12 @@ export default function Index() {
               </p>
               <p>É apenas o começo.</p>
             </Col>
-            <Col md={6}>imagem</Col>
+            <Col md={6}>
+              <img src="home-img.jpg" />
+            </Col>
           </Row>
         </Container>
       </section>
-
       <Footer />
     </>
   );

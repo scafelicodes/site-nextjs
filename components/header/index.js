@@ -4,10 +4,9 @@ export default function Header() {
   return (
     <>
       <header>
-        <Container>
-          <Row>
-            <Col md={4}>Estúdio Niterói</Col>
-          </Row>
+        <Container className="text-center">
+          <img className="logo-header" src="logo-scafeli-white.svg" />
+          <p>Produtora de Conteúdos Digitais</p>
         </Container>
       </header>
     </>
