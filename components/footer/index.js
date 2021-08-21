@@ -5,6 +5,7 @@ export default function Footer() {
     <footer>
       <Container className="text-center">
         <p>© 2021 Scafeli, Produtora de Contéudos Digitais.</p>
+        <p>Itaboraí, Rio de Janeiro.</p>
       </Container>
     </footer>
   );

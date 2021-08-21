@@ -9,12 +9,38 @@ img {
   height: auto;
 }
 .logo-header {
-  max-width: 160px;
+  width: 160px;
+}
+
+.nav-link {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #777 !important;
+}
+.dropdown-item {
+  font-family: "Oswald", sans-serif !important;
+  text-transform: uppercase;
+}
+
+.navbar-collapse {
+  @media screen and (min-width: 768px) {
+    justify-content: space-between;
+  }
 }
 header {
   background-color: #212121;
   padding: 30px 0;
   color: white;
+
+  display: flex;
+  align-items: center;
+
+  p {
+    color: #777;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
 }
 
 .hero {
@@ -34,7 +60,7 @@ header {
     font-weight: 400;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: white;
+    color: #777;
   }
 }
 
@@ -60,11 +86,13 @@ footer {
   background-color: #212121;
   color: #777;
   padding: 60px 0 45px;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #777 !important;
 
-  h3 {
-    font-family: "Oswald", sans-serif;
-    font-weight: 500;
-    text-transform: uppercase;
+  p {
+    margin-bottom: 0px;
   }
 }
 
@@ -75,19 +103,19 @@ footer {
   align-items: center;
 
   .bio {
-    h1 {
-      font-family: "Oswald", sans-serif;
-      text-transform: uppercase;
-      color: #fff;
-    }
-
     p {
       color: #777;
       margin-bottom: 40px;
+      font-family: "Oswald", sans-serif;
+      text-transform: uppercase;
+      margin-top: 10px;
+      letter-spacing: 1px;
     }
   }
 
   ul {
+    margin: 0;
+    padding: 0;
     li {
       list-style: none;
       background: #fff;
