@@ -15,23 +15,8 @@ export default function Index() {
       <section className="about">
         <Container>
           <Row className="d-flex align-items-center">
-            <Col md={6}>
-              {/* <img src="xp.svg" /> */}
-              {/* <p>Entregamos experiências, não anúncios.</p> */}
-              <h3>
-                Criamos parcerias para fornecer conteúdos incríveis e campanhas
-                publicitárias com resultados reais.
-              </h3>
-              <p>
-                Desde 2014, já são centenas de clientes atendidos em todo o
-                mundo e mais de 1 bilhão de pessoas impactadas pelo nosso
-                trabalho.
-              </p>
-              <p>É apenas o começo.</p>
-            </Col>
-            <Col md={6}>
-              <img src="home-img.jpg" />
-            </Col>
+            <Col md={6}></Col>
+            <Col md={6}></Col>
           </Row>
         </Container>
       </section>
