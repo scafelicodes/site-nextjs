@@ -28,9 +28,7 @@ export default function Header() {
                   </NavDropdown.Item>
                 </NavDropdown>
                 <NavDropdown title="Social" id="collasible-nav-dropdown">
-                  <NavDropdown.Item href="#action/3.1">
-                    Instagram
-                  </NavDropdown.Item>
+                  <NavDropdown.Item href="#action/3.1">Insta</NavDropdown.Item>
                   <NavDropdown.Item href="#action/3.2">
                     Behance
                   </NavDropdown.Item>
