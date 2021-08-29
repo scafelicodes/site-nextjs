@@ -42,10 +42,11 @@ export default function Header() {
                   </NavDropdown.Item>
                 </NavDropdown>
 
-                <Nav.Link href="/trabalhos">Trabalhos</Nav.Link>
+                <Nav.Link href="/trabalhos">Projetos</Nav.Link>
+                <Nav.Link href="/blog">Blog</Nav.Link>
 
                 <Nav.Link eventKey={2} href="/orcamento">
-                  Orçamento
+                  Contato
                 </Nav.Link>
               </Nav>
             </Navbar.Collapse>

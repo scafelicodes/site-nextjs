@@ -6,7 +6,7 @@ export default function Bio() {
       <Container className="bio">
         <div className="text-center">
           <img className="logo-header" src="logo-scafeli-white.svg" />
-          <p>Produtora de Conteúdos Digitais ⚡</p>
+          <p>Software Engineer ⚡</p>
         </div>
 
         <ul>

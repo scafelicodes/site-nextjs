@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Scafeli - Produtora de Conteúdos Digitais</title>
+        <title>Gustavo Scafeli - Software Engineer</title>
         <link rel="shortcut icon" href="/favicon.png" />
       </Head>
       <DefaultSeo {...SEO} />

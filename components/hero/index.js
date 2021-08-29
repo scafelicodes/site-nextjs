@@ -4,13 +4,10 @@ export default function Hero() {
   return (
     <section className="hero">
       <Container>
-        <h1>FCKNG CRTVE STDIO</h1>
-        <p>
-          Um estúdio de criação que atende as melhores empresas e pessoas do
-          mundo desde 2014.
-        </p>
+        <h1>HELLO WORLD!</h1>
+        <p>Engenheiro de Software, Hacker Ético e Criador de Conteúdo.</p>
 
-        <img src="https://images.unsplash.com/photo-1621253081433-999009f17b4b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" />
+        <img src="https://images.unsplash.com/photo-1606127195437-d12564b184e9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80" />
         {/* <div class="embed-responsive embed-responsive-16by9">
           <iframe
             width="560"
