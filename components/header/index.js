@@ -25,10 +25,25 @@ const Header = ({ router: { pathname } }) => (
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <NavLink path="/" label="Home" pathname />
-            <Nav className="ml-auto">
-              <NavLink path="/" label="Home" pathname />
+            <Nav>
+              <NavLink path="/" label="Bio" pathname />
               <NavLink path="/projetos" label="Projetos" pathname />
+              <NavLink path="/setup" label="Meu Setup" pathname />
+              <NavLink path="/blog" label="Blog" pathname />
+            </Nav>
+
+            <Nav className="ml-auto">
+              <NavLink
+                path="https://instagram.com/gustavoscafeli"
+                label="Instagram"
+              />
+
+              <NavLink
+                path="https://github.com/gustavoscafeli"
+                label="Github"
+              />
+
+              <NavLink path="/contato" label="Contato" pathname />
             </Nav>
           </Navbar.Collapse>
         </Container>

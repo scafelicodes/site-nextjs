@@ -12,6 +12,15 @@ img {
   width: 160px;
 }
 
+.navbar-brand {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
 .nav-link {
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
