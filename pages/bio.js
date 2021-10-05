@@ -18,7 +18,7 @@ export default function Bio() {
 
           <li>
             <a target="_blank" href="#">
-              <i class="fas fa-mask"></i> Veja nossos últimos trabalhos
+              <i class="fas fa-mask"></i> Meus últimos trabalhos
             </a>
           </li>
 

@@ -21,7 +21,8 @@ const Header = ({ router: { pathname } }) => (
       <Navbar expand="lg">
         <Container>
           <Navbar.Brand href="/">
-            <img className="logo-header" src="logo-scafeli-white.svg" />
+            {/* <img className="logo-header" src="logo-scafeli-white.svg" /> */}
+            Gustavo Souza
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
@@ -29,18 +30,13 @@ const Header = ({ router: { pathname } }) => (
               <NavLink path="/" label="Bio" pathname />
               <NavLink path="/projetos" label="Projetos" pathname />
               <NavLink path="/setup" label="Meu Setup" pathname />
-              <NavLink path="/blog" label="Blog" pathname />
             </Nav>
 
             <Nav className="ml-auto">
               <NavLink
-                path="https://instagram.com/gustavoscafeli"
-                label="Instagram"
-              />
-
-              <NavLink
                 path="https://github.com/gustavoscafeli"
                 label="Github"
+                target="_blank"
               />
 
               <NavLink path="/contato" label="Contato" pathname />

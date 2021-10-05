@@ -9,9 +9,20 @@ export default function Projetos() {
         <div className="row">
           <div className="col-6"></div>
           <div className="col-6">
+            <h1>uResize</h1>
+            <p className="lead">
+              Ferramenta clientside para redimensionar imagens.
+            </p>
+            <a href="#">Saiba mais</a>
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="col-6"></div>
+          <div className="col-6">
             <h1>Zappy</h1>
             <p className="lead">
-              A melhor plataforma brasileira de divulgação e venda e produtos.
+              Plataforma de ecommerce para pequenos e médios negócios.
             </p>
             <a href="#">Saiba mais</a>
           </div>
