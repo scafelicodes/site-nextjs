@@ -15,36 +15,22 @@ export const NavLink = (props) => {
   );
 };
 
-const Header = ({ router: { pathname } }) => (
+const Header = () => (
   <header>
-    <Container id="wrapper-navbar">
-      <Navbar expand="lg">
-        <Container>
-          <Navbar.Brand href="/">
-            {/* <img className="logo-header" src="logo-scafeli-white.svg" /> */}
-            Gustavo Souza
-          </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav>
-              <NavLink path="/" label="Bio" pathname />
-              <NavLink path="/projetos" label="Projetos" pathname />
-              <NavLink path="/setup" label="Meu Setup" pathname />
-            </Nav>
+    <div className="container">
+      <div className="header__content">
+        <Link href="/">
+          <a className="logo">Gustavo</a>
+        </Link>
 
-            <Nav className="ml-auto">
-              <NavLink
-                path="https://github.com/gustavoscafeli"
-                label="Github"
-                target="_blank"
-              />
-
-              <NavLink path="/contato" label="Contato" pathname />
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
-    </Container>
+        <ul className="menu__desktop">
+          <li>Meus trabalhos</li>
+          <li>Meus trabalhos</li>
+          <li>Loja Scafeli</li>
+          <li>Minha loja</li>
+        </ul>
+      </div>
+    </div>
   </header>
 );
 
