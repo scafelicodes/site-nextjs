@@ -6,12 +6,11 @@ export default function Hero() {
       <div className="container">
         <div className="row">
           <div className="col-md-7">
-            <p className="lead">Produtora • Agência de Publicidade</p>
-            <h1>Scafeli</h1>
+            {/* <p className="lead">Produtora • Agência de Publicidade</p> */}
+            {/* <h1>Scafeli</h1> */}
 
             <h3>
-              Development of web applications for <b>startups</b> and{" "}
-              <b>large companies</b>
+              Produção de Conteúdo e Tecnologia para <b>empresas criativas</b>.
             </h3>
           </div>
         </div>

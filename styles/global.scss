@@ -61,7 +61,7 @@ header {
 }
 
 .hero {
-  height: 600px;
+  height: 400px;
   display: flex;
   align-items: center;
 
@@ -183,6 +183,48 @@ footer {
       background-size: cover;
       background-position: center;
     }
+
+    &.cfb7 {
+      background: url("/cfb7.png");
+      background-size: cover;
+      background-position: center;
+    }
+
+    &.befit {
+      background: url("/befit.png");
+      background-size: cover;
+      background-position: center;
+    }
+
+    &.adidas {
+      background: url("/adidas.png");
+      background-size: cover;
+      background-position: center;
+    }
+
+    &.anonimatta {
+      background: url("/anonimatta.png");
+      background-size: cover;
+      background-position: center;
+    }
+  }
+}
+
+.header__projects {
+  background-color: #000;
+  color: #fff;
+  height: 420px;
+  margin-bottom: 60px;
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.2;
   }
 }
 

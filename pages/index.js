@@ -3,6 +3,10 @@ import Footer from "./../components/footer";
 import Hero from "./../components/hero";
 import About from "./../components/about";
 
+import Link from "next/dist/client/link";
+
+import ProjectsList from "../components/projects";
+
 import { Container, Row, Col } from "react-bootstrap";
 
 export default function Index() {
@@ -21,35 +25,13 @@ export default function Index() {
         </Container>
       </section>
 
-      <section>
-        <div className="container">
-          <div className="projects">
-            <div className="project__item zapily">
-              <p className="lead">Ipsum Dev</p>
-            </div>
+      <ProjectsList />
 
-            <div className="project__item zapily">
-              <p className="lead">Zapily.io</p>
-            </div>
-
-            <div className="project__item zapily">
-              <p className="lead">Hyped WooCommerce</p>
-            </div>
-
-            <div className="project__item zapily">
-              <p className="lead">Orbital iPad Mockup</p>
-            </div>
-
-            <div className="project__item zapily">
-              <p className="lead">Orbital iPad Mockup</p>
-            </div>
-
-            <div className="project__item zapily">
-              <p className="lead">Orbital iPad Mockup</p>
-            </div>
-          </div>
-        </div>
-      </section>
+      <div className="container">
+        <Link href="/projetos">
+          <a>Ver mais projetos</a>
+        </Link>
+      </div>
 
       <Footer />
     </>
