@@ -20,15 +20,16 @@ const Header = () => (
     <div className="container">
       <div className="header__content">
         <Link href="/">
-          <a className="logo">Gustavo Scafeli</a>
+          <a className="logo">Scafeli</a>
         </Link>
 
-        <ul className="menu__desktop">
-          <li>About</li>
-          <li>Experience</li>
-          <li>Works</li>
-          <li>Get in touch</li>
-        </ul>
+        <a
+          className="contact__btn"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+        >
+          Orçamento
+        </a>
       </div>
     </div>
   </header>

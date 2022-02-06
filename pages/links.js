@@ -1,31 +1,37 @@
 import { Container, Row, Col } from "react-bootstrap";
 
-export default function Bio() {
+export default function Links() {
   return (
     <div className="bio-page-scafeli">
       <Container className="bio">
         <div className="text-center">
           <img className="logo-header" src="logo-scafeli-white.svg" />
-          <p>Software Engineer ⚡</p>
+          <p>Agência de Publicidade ⚡</p>
         </div>
 
         <ul>
           <li>
-            <a target="_blank" href="#">
-              <i class="fab fa-whatsapp"></i> Solicite um orçamento
-            </a>
+            <Link href="/">
+              <a target="_blank">
+                <i class="fab fa-whatsapp"></i> Solicite um orçamento
+              </a>
+            </Link>
           </li>
 
           <li>
-            <a target="_blank" href="#">
-              <i class="fas fa-mask"></i> Meus últimos trabalhos
-            </a>
+            <Link href="#">
+              <a target="_blank">
+                <i class="fas fa-mask"></i> Últimos trabalhos
+              </a>
+            </Link>
           </li>
 
           <li>
-            <a target="_blank" href="https://scafeli.com.br">
-              <i class="fas fa-tv"></i> Conheça o nosso site
-            </a>
+            <Link href="#">
+              <a target="_blank">
+                <i class="fas fa-tv"></i> Conheça o nosso site
+              </a>
+            </Link>
           </li>
 
           <li>

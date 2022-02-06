@@ -22,6 +22,15 @@ img {
 header {
   padding: 30px 0;
 
+  // position: sticky;
+  // top: 0;
+
+  // z-index: 99999;
+
+  // -webkit-backdrop-filter: blur(8px); /* Safari 9+ */
+  // backdrop-filter: blur(8px); /* Chrome and Opera */
+  // background-color: rgba(255, 255, 255, 0.3);
+
   .header__content {
     display: flex;
     align-items: center;
@@ -41,12 +50,26 @@ header {
       }
     }
   }
+
+  .contact__btn {
+    border: 1px solid #222;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+  }
 }
 
 .hero {
   height: 600px;
   display: flex;
   align-items: center;
+
+  .lead {
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
 
   h1 {
     font-size: 60px;
@@ -142,6 +165,7 @@ footer {
     transition: all ease 0.3s;
     margin-bottom: 40px;
     position: relative;
+    cursor: pointer;
 
     p {
       position: absolute;
@@ -159,5 +183,14 @@ footer {
       background-size: cover;
       background-position: center;
     }
+  }
+}
+
+.modal-dialog {
+  max-width: 600px;
+  margin: 1.75rem auto;
+  .modal-content {
+    border: none;
+    border-radius: 20px;
   }
 }

@@ -6,8 +6,8 @@ export default function Hero() {
       <div className="container">
         <div className="row">
           <div className="col-md-7">
-            <h1>Gustavo Scafeli</h1>
-            <p className="lead">Software Engineer • Content Creator</p>
+            <p className="lead">Produtora • Agência de Publicidade</p>
+            <h1>Scafeli</h1>
 
             <h3>
               Development of web applications for <b>startups</b> and{" "}

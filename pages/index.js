@@ -24,7 +24,7 @@ export default function Index() {
       <section>
         <div className="container">
           <div className="projects">
-            <div className="project__item">
+            <div className="project__item zapily">
               <p className="lead">Ipsum Dev</p>
             </div>
 
@@ -32,19 +32,19 @@ export default function Index() {
               <p className="lead">Zapily.io</p>
             </div>
 
-            <div className="project__item">
+            <div className="project__item zapily">
               <p className="lead">Hyped WooCommerce</p>
             </div>
 
-            <div className="project__item">
+            <div className="project__item zapily">
               <p className="lead">Orbital iPad Mockup</p>
             </div>
 
-            <div className="project__item">
+            <div className="project__item zapily">
               <p className="lead">Orbital iPad Mockup</p>
             </div>
 
-            <div className="project__item">
+            <div className="project__item zapily">
               <p className="lead">Orbital iPad Mockup</p>
             </div>
           </div>
