@@ -3,12 +3,18 @@ import { Container, Row, Col } from "react-bootstrap";
 export default function Hero() {
   return (
     <section className="hero">
-      <div>
-        <img src="/logo-gustavo-scafeli.svg" alt="logo" />
+      <div className="container">
+        <div className="row">
+          <div className="col-md-7">
+            <h1>Gustavo Scafeli</h1>
+            <p className="lead">Software Engineer • Content Creator</p>
 
-        <a href="#" className="btn__white">
-          Simule um orçamento
-        </a>
+            <h3>
+              Development of web applications for <b>startups</b> and{" "}
+              <b>large companies</b>
+            </h3>
+          </div>
+        </div>
       </div>
     </section>
   );

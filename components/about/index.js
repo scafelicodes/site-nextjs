@@ -3,18 +3,19 @@ export default function About() {
     <div className="container">
       <div className="row" id="servicos">
         <div className="col-md-6">
-          <img
-            src="https://images.unsplash.com/photo-1611599738437-740eade51365?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80"
-            alt="Imagem de um computador"
-          />
+          <h4>Skills</h4>
+          <ul>
+            <li>+5 years</li>
+            <li>+5 years</li>
+            <li>+5 years</li>
+          </ul>
         </div>
 
         <div className="col-md-6">
-          <p>lalalala</p>
+          <h4>Interests</h4>
 
-          <a href="" className="btn__black">
-            Veja meu trabalho
-          </a>
+          <h6>Scripting languages</h6>
+          <p>PHP, JS, Bash, Python</p>
         </div>
       </div>
     </div>

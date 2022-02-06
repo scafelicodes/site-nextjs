@@ -2,8 +2,8 @@ export default {
   openGraph: {
     type: "website",
     locale: "pt_BR",
-    url: "https://www.scafeli.com.br",
-    site_name: "Scafeli",
+    url: "https://www.gustavoscafeli.com",
+    site_name: "Gustavo Scafeli",
   },
   twitter: {
     handle: "@handle",

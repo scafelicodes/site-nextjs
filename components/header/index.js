@@ -20,14 +20,14 @@ const Header = () => (
     <div className="container">
       <div className="header__content">
         <Link href="/">
-          <a className="logo">Gustavo</a>
+          <a className="logo">Gustavo Scafeli</a>
         </Link>
 
         <ul className="menu__desktop">
-          <li>Meus trabalhos</li>
-          <li>Meus trabalhos</li>
-          <li>Loja Scafeli</li>
-          <li>Minha loja</li>
+          <li>About</li>
+          <li>Experience</li>
+          <li>Works</li>
+          <li>Get in touch</li>
         </ul>
       </div>
     </div>
