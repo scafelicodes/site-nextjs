@@ -1,7 +1,7 @@
-import Header from "../components/header";
-import Footer from "../components/footer";
+import Header from "../../components/header";
+import Footer from "../../components/footer";
 
-import ProjectsList from "../components/projects";
+import ProjectsList from "../../components/projects";
 
 export default function Projetos() {
   return (

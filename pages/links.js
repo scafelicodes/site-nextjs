@@ -1,4 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
+import { Link } from "next/dist/client/link";
 
 export default function Links() {
   return (
