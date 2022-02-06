@@ -7,9 +7,12 @@ export default function Obrigado() {
       <Header />
       <div className="container">
         <div className="row">
-          <div className="col-6"></div>
           <div className="col-6">
             <h1>Obrigado!</h1>
+            <p>
+              Vamos analisar as informações enviadas no formulário e
+              retornaremos o quanto antes!
+            </p>
           </div>
         </div>
       </div>
