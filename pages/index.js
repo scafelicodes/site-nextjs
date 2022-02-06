@@ -1,7 +1,6 @@
 import Header from "./../components/header";
 import Footer from "./../components/footer";
 import Hero from "./../components/hero";
-import About from "./../components/about";
 
 import Link from "next/dist/client/link";
 

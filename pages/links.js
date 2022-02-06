@@ -1,10 +1,9 @@
-import { Container, Row, Col } from "react-bootstrap";
-import { Link } from "next/dist/client/link";
+import Link from "next/link";
 
 export default function Links() {
   return (
     <div className="bio-page-scafeli">
-      <Container className="bio">
+      <div className="container bio">
         <div className="text-center">
           <img className="logo-header" src="logo-scafeli-white.svg" />
           <p>Agência de Publicidade ⚡</p>
@@ -20,7 +19,7 @@ export default function Links() {
           </li>
 
           <li>
-            <Link href="#">
+            <Link href="/">
               <a target="_blank">
                 <i class="fas fa-mask"></i> Últimos trabalhos
               </a>
@@ -28,7 +27,7 @@ export default function Links() {
           </li>
 
           <li>
-            <Link href="#">
+            <Link href="/">
               <a target="_blank">
                 <i class="fas fa-tv"></i> Conheça o nosso site
               </a>
@@ -44,7 +43,7 @@ export default function Links() {
             </a>
           </li>
         </ul>
-      </Container>
+      </div>
     </div>
   );
 }

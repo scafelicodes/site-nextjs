@@ -48,7 +48,7 @@ function MyApp({ Component, pageProps }) {
                 method="POST"
               >
                 <div class="mb-3">
-                  <label class="form-label">Your name</label>
+                  <label class="form-label">Seu nome</label>
                   <input
                     type="text"
                     name="name"
@@ -58,7 +58,7 @@ function MyApp({ Component, pageProps }) {
                 </div>
 
                 <div class="mb-3">
-                  <label class="form-label">Your email address</label>
+                  <label class="form-label">Seu melhor e-mail</label>
                   <input
                     type="email"
                     name="email"
@@ -69,7 +69,7 @@ function MyApp({ Component, pageProps }) {
 
                 <div class="mb-3">
                   <label for="exampleFormControlTextarea1" class="form-label">
-                    Your message
+                    Descreva o seu projeto
                   </label>
                   <textarea
                     class="form-control"

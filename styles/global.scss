@@ -118,13 +118,15 @@ footer {
   display: flex;
   align-items: center;
 
+  .logo-header {
+    max-width: 200px;
+  }
+
   .bio {
     p {
       color: #777;
       margin-bottom: 40px;
-      text-transform: uppercase;
       margin-top: 10px;
-      letter-spacing: 1px;
     }
   }
 
@@ -144,9 +146,7 @@ footer {
         color: #212121;
         padding: 15px;
         font-weight: 500;
-        &:hover {
-          text-decoration: none;
-        }
+        text-decoration: none;
       }
     }
   }
