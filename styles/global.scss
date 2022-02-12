@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
 
 body {
@@ -10,8 +11,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Inter", sans-serif;
-  font-weight: 600;
+  font-family: "Krona One", sans-serif;
 }
 
 img {
@@ -19,51 +19,26 @@ img {
   height: auto;
 }
 
-header {
-  padding: 30px 0;
+.header {
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  transition: all ease 0.5s;
 
-  // position: sticky;
-  // top: 0;
-
-  // z-index: 99999;
-
-  // -webkit-backdrop-filter: blur(8px); /* Safari 9+ */
-  // backdrop-filter: blur(8px); /* Chrome and Opera */
-  // background-color: rgba(255, 255, 255, 0.3);
-
-  .header__content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-    .menu__desktop {
-      padding: 0;
-      margin: 0;
-      li {
-        list-style: none;
-        display: inline-block;
-        padding: 0 20px;
-        font-size: 13px;
-        :last-child {
-          padding-right: 0 !important;
-        }
-      }
-    }
-  }
-
-  .contact__btn {
-    border: 1px solid #222;
-    cursor: pointer;
-    text-decoration: none;
-    padding: 10px 30px;
-    border-radius: 20px;
+  &.scrolled {
+    background-color: #fff;
   }
 }
 
 .hero {
-  height: 400px;
+  background: url(https://images.unsplash.com/photo-1616837662891-c62d5fe6418e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
   display: flex;
   align-items: center;
+  color: #fff !important;
 
   .lead {
     margin-bottom: 0px;
@@ -74,7 +49,6 @@ header {
   h1 {
     font-size: 60px;
     font-weight: 600;
-    color: #222222;
     margin-bottom: 0;
   }
 
@@ -84,6 +58,38 @@ header {
   }
   @media screen and (max-width: 768px) {
     height: 520px;
+  }
+}
+
+.presentation {
+  background-color: #000;
+  color: #fff;
+  padding: 100px 0;
+
+  p {
+    margin: 0;
+    border-bottom: 1px solid #303030;
+    padding: 10px 0;
+    margin-bottom: 40px;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    li {
+      list-style: none;
+      margin-bottom: 22px;
+      transition: all ease 0.3s;
+      text-transform: uppercase;
+      font-size: 14px;
+      &:hover {
+        margin-left: 10px;
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
   }
 }
 
@@ -104,7 +110,8 @@ header {
 }
 
 footer {
-  color: #777;
+  background-color: #000;
+  color: #fff;
   padding: 60px 0 45px;
 
   p {
@@ -158,10 +165,10 @@ footer {
   justify-content: space-between;
 
   .project__item {
-    border-radius: 16px;
+    // border-radius: 16px;
     background-color: #212121;
     height: 400px;
-    min-width: calc(33% - 22.5px);
+    min-width: calc(50% - 22.5px);
     transition: all ease 0.3s;
     margin-bottom: 40px;
     position: relative;

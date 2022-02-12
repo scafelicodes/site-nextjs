@@ -19,13 +19,13 @@ export default function ProjectsList() {
             <p className="lead">Adidas</p>
           </div>
 
-          <div className="project__item anonimatta">
+          {/* <div className="project__item anonimatta">
             <p className="lead">Anonimatta</p>
           </div>
 
           <div className="project__item zapily">
             <p className="lead">Orbital iPad Mockup</p>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

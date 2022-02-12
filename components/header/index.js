@@ -1,38 +1,84 @@
-import Link from "next/link";
-import { withRouter } from "next/router";
-import classNames from "classnames";
-import { Container, Navbar, Nav } from "react-bootstrap";
+import React, { useEffect, useState } from "react";
 
-export const NavLink = (props) => {
-  let className = classNames({
-    "nav-link": true,
-    "is-active": props.pathname,
-  });
+export default function Header() {
+  const [small, setSmall] = useState(false);
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      window.addEventListener("scroll", () =>
+        setSmall(window.pageYOffset > 100)
+      );
+    }
+  }, []);
+
   return (
-    <Link href={props.path}>
-      <a className={className}>{props.label}</a>
-    </Link>
-  );
-};
-
-const Header = () => (
-  <header>
-    <div className="container">
-      <div className="header__content">
-        <Link href="/">
-          <a className="logo">Scafeli</a>
-        </Link>
-
-        <a
-          className="contact__btn"
-          data-bs-toggle="modal"
-          data-bs-target="#exampleModal"
-        >
-          Orçamento
-        </a>
+    <header className={`header ${small ? "scrolled" : ""}`}>
+      <div className="container">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              Scafeli
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">
+                    Home
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    Link
+                  </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        Action
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        Another action
+                      </a>
+                    </li>
+                    <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        Something else here
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
       </div>
-    </div>
-  </header>
-);
-
-export default withRouter(Header);
+    </header>
+  );
+}
