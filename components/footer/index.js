@@ -1,17 +1,16 @@
-import { Container, Row, Col } from "react-bootstrap";
-
 export default function Footer() {
   return (
     <footer>
       <section>
-        <div className="container">
+        <div className="max-w-7xl mx-auto">
           <p>Vamos trabalhar juntos?</p>
           <h1>contato@scafeli.com</h1>
         </div>
       </section>
-      <div className="container">
+      <div className="max-w-7xl mx-auto">
         <div className="row">
           <div className="col-md-4">
+            <h4>Scafeli</h4>
             <ul>
               <li>Sobre</li>
               <li>Serviços</li>
@@ -21,6 +20,7 @@ export default function Footer() {
           </div>
 
           <div className="col-md-4">
+            <h4>Serviços</h4>
             <ul>
               <li>Conteúdo</li>
               <li>Desenvolvimento</li>
@@ -31,7 +31,7 @@ export default function Footer() {
           </div>
 
           <div className="col-md-4">
-            Social
+            <h4>Social</h4>
             <ul>
               <li>Instagram</li>
               <li>Behance</li>
