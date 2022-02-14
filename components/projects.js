@@ -3,38 +3,34 @@ import Link from "next/link";
 export default function ProjectsList() {
   return (
     <section className="projects__section">
-      <div className="max-w-7xl mx-auto">
+      <div className="container">
         <div className="projects">
-          <div
-            className="project__item cfb7 rounded-lg"
-            data-aos="fade-up"
-            data-aos-duration="800"
-          >
-            <p className="lead">CFB7 Brasil</p>
+          <div className="project__item cfb7 rounded-lg">
+            <div className="pj__content">
+              <h3>CFB7 Brasil</h3>
+              <p>lorem ipsum </p>
+            </div>
           </div>
 
-          <div
-            className="project__item zapily rounded-lg"
-            data-aos="fade-up"
-            data-aos-duration="1200"
-          >
-            <p className="lead">Zapily Catálogos</p>
+          <div className="project__item zapily rounded-lg">
+            <div className="pj__content">
+              <h3>CFB7 Brasil</h3>
+              <p>lorem ipsum </p>
+            </div>
           </div>
 
-          <div
-            className="project__item befit rounded-lg"
-            data-aos="fade-up"
-            data-aos-duration="800"
-          >
-            <p className="lead">Academia Be Fit</p>
+          <div className="project__item befit rounded-lg">
+            <div className="pj__content">
+              <h3>CFB7 Brasil</h3>
+              <p>lorem ipsum </p>
+            </div>
           </div>
 
-          <div
-            className="project__item adidas rounded-lg"
-            data-aos="fade-up"
-            data-aos-duration="1200"
-          >
-            <p className="lead">Adidas</p>
+          <div className="project__item adidas rounded-lg">
+            <div className="pj__content">
+              <h3>CFB7 Brasil</h3>
+              <p>lorem ipsum </p>
+            </div>
           </div>
 
           {/* <div className="project__item anonimatta rounded-lg">
@@ -47,11 +43,9 @@ export default function ProjectsList() {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto">
+      <div className="container">
         <Link href="/cases">
-          <a className="dft-btn inline-block text-center rounded-md py-3 px-8 font-medium text-white">
-            Ver cases
-          </a>
+          <a className="default__btn">Ver cases</a>
         </Link>
       </div>
     </section>

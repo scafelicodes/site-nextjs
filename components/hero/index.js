@@ -52,9 +52,7 @@ export default function Hero() {
         <p>Conteúdos digitais sob medida para a sua empresa</p>
 
         <Link href="/contato">
-          <a className="dft-btn inline-block text-center rounded-md py-3 px-8 font-medium text-white">
-            Fale conosco
-          </a>
+          <a className="btn btn-light">Fale conosco</a>
         </Link>
       </div>
     </section>
