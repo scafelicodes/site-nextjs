@@ -63,8 +63,8 @@ export default function Header() {
                 </Link>
               </li>
               <li class="nav-item">
-                <Link href="/clientes">
-                  <a class="nav-link">Clientes</a>
+                <Link href="/projetos">
+                  <a class="nav-link">Projetos</a>
                 </Link>
               </li>
               {/* <li class="nav-item">

@@ -53,17 +53,17 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/projetos">
+                  <a>Projetos</a>
+                </Link>
+              </li>
+              {/* <li>
                 <Link href="/sobre">
                   <a>Sobre</a>
                 </Link>
-              </li>
+              </li> */}
               <li>
-                <Link href="/sobre">
-                  <a>Sobre</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/sobre">
+                <Link href="/contato">
                   <a>Contato</a>
                 </Link>
               </li>
