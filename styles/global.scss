@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 $primary-color: #ff1744;
@@ -161,7 +161,7 @@ img {
   h3 {
     font-size: 34px;
     margin-bottom: 18px;
-    font-weight: 500;
+    font-weight: 400;
     text-transform: uppercase;
   }
 }
@@ -195,7 +195,7 @@ footer {
       a {
         color: #fff;
         text-decoration: none;
-        font-weight: 500;
+        font-weight: 400;
       }
     }
   }

@@ -58,15 +58,28 @@ export default function Header() {
           <div class="collapse navbar-collapse " id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <Link href="/sobre">
-                  <a class="nav-link">Sobre nós</a>
+                <Link href="/servicos">
+                  <a class="nav-link">Serviços</a>
                 </Link>
               </li>
+
               <li class="nav-item">
                 <Link href="/projetos">
                   <a class="nav-link">Projetos</a>
                 </Link>
               </li>
+
+              <li class="nav-item">
+                <Link href="/produtos">
+                  <a class="nav-link">Produtos</a>
+                </Link>
+              </li>
+              {/* <li class="nav-item">
+                <Link href="/produtos/socialmediabox">
+                  <a class="nav-link">Social Media Box</a>
+                </Link>
+              </li> */}
+
               {/* <li class="nav-item">
                   <Link href="/conteudos">
                     <a class="nav-link">Conteúdos</a>
@@ -79,7 +92,7 @@ export default function Header() {
                 </li> */}
               <li class="nav-item">
                 <Link href="/contato">
-                  <a class="nav-link">Fale conosco</a>
+                  <a class="nav-link">Contato</a>
                 </Link>
               </li>
             </ul>
