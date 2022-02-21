@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <div className="header">
       <div className="container">
-        <nav class="navbar navbar-expand-sm navbar-light">
+        <nav class="navbar navbar-expand-sm navbar-dark">
           <Link href="/">
             <a class="navbar-brand">
               <svg
@@ -58,8 +58,8 @@ export default function Header() {
           <div class="collapse navbar-collapse " id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <Link href="/servicos">
-                  <a class="nav-link">Serviços</a>
+                <Link href="/trabalhos">
+                  <a class="nav-link">Trabalhos</a>
                 </Link>
               </li>
 
@@ -70,26 +70,11 @@ export default function Header() {
               </li>
 
               <li class="nav-item">
-                <Link href="/produtos">
-                  <a class="nav-link">Produtos</a>
+                <Link href="/blog">
+                  <a class="nav-link">Blog</a>
                 </Link>
               </li>
-              {/* <li class="nav-item">
-                <Link href="/produtos/socialmediabox">
-                  <a class="nav-link">Social Media Box</a>
-                </Link>
-              </li> */}
 
-              {/* <li class="nav-item">
-                  <Link href="/conteudos">
-                    <a class="nav-link">Conteúdos</a>
-                  </Link>
-                </li> */}
-              {/* <li class="nav-item">
-                  <Link href="/produtos">
-                    <a class="nav-link">Produtos</a>
-                  </Link>
-                </li> */}
               <li class="nav-item">
                 <Link href="/contato">
                   <a class="nav-link">Contato</a>

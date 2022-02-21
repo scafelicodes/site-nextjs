@@ -4,7 +4,9 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-$primary-color: #ff1744;
+$primary-color: #101820;
+
+$font-secondary-color: #71717a;
 
 img {
   max-width: 100%;
@@ -13,7 +15,7 @@ img {
 
 .navbar-brand {
   .cls-1 {
-    fill: #212121;
+    fill: #d6d1cd;
   }
   svg {
     width: 160px;
@@ -23,15 +25,14 @@ img {
 .header {
   width: 100%;
   padding: 10px 0;
-  // transition: all ease 0.5s;
-
-  // &.scrolled {
-  //   background-color: #fff;
-  // }
+  background-color: $primary-color;
+  position: fixed;
+  top: 0;
+  z-index: 1;
 }
 
 .cls-1 {
-  fill: #fff;
+  fill: #d6d1cd;
 }
 
 .default__btn {
@@ -47,14 +48,8 @@ img {
 }
 
 .hero {
-  background: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0.6),
-    rgba(0, 0, 0, 100)
-  );
-  // url(https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80);
-
-  min-height: 85vh;
+  background: $primary-color;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   color: #fff !important;
@@ -64,10 +59,6 @@ img {
     margin-bottom: 40px;
     margin-top: 10px;
     font-size: 20px;
-  }
-
-  svg {
-    width: 600px;
   }
 
   @media screen and (max-width: 768px) {
@@ -166,6 +157,11 @@ img {
   }
 }
 
+.instafeed {
+  background-color: #fafafa;
+  padding: 100px 0;
+}
+
 footer {
   .footer__container {
     display: flex;
@@ -176,8 +172,8 @@ footer {
     width: 160px;
   }
 
-  background-color: #000;
-  color: #fff;
+  background-color: $primary-color;
+  color: $font-secondary-color;
   padding: 120px 0;
 
   p {

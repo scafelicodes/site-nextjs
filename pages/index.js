@@ -1,18 +1,23 @@
 import Header from "./../components/header";
 import Footer from "./../components/footer";
 import Hero from "./../components/hero";
+import About from "./../components/about";
 
 import Link from "next/dist/client/link";
 
 import ProjectsList from "../components/projects";
+import Instafeed from "../components/instafeed";
 
 export default function Index() {
   return (
     <>
       <Header />
+
       <Hero />
 
-      <section className="presentation">
+      <About />
+
+      {/* <section className="presentation">
         <div className="container">
           <div className="row">
             <div className="col-md-9">
@@ -61,10 +66,10 @@ export default function Index() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <ProjectsList />
-
+      <Instafeed />
       <Footer />
     </>
   );
