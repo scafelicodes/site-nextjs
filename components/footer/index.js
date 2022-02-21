@@ -7,7 +7,8 @@ export default function Footer() {
         <div className="footer__container">
           <div className="footer__item">
             <div className="logo__footer">
-              <svg
+              Gustavo Scafeli
+              {/* <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 381.32 51.84"
               >
@@ -40,7 +41,7 @@ export default function Footer() {
                     <path class="cls-1" d="M381.32,51.12H365.47V.72h15.85Z" />
                   </g>
                 </g>
-              </svg>
+              </svg> */}
             </div>
           </div>
 

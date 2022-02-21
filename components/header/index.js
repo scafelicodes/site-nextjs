@@ -7,7 +7,8 @@ export default function Header() {
         <nav class="navbar navbar-expand-sm navbar-dark">
           <Link href="/">
             <a class="navbar-brand">
-              <svg
+              Gustavo Scafeli
+              {/* <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 381.32 51.84"
               >
@@ -40,7 +41,7 @@ export default function Header() {
                     <path class="cls-1" d="M381.32,51.12H365.47V.72h15.85Z" />
                   </g>
                 </g>
-              </svg>
+              </svg> */}
             </a>
           </Link>
 
@@ -58,26 +59,32 @@ export default function Header() {
           <div class="collapse navbar-collapse " id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <Link href="/trabalhos">
-                  <a class="nav-link">Trabalhos</a>
+                <Link href="/about">
+                  <a class="nav-link">About</a>
                 </Link>
               </li>
 
               <li class="nav-item">
-                <Link href="/projetos">
-                  <a class="nav-link">Projetos</a>
+                <Link href="/works">
+                  <a class="nav-link">Works</a>
                 </Link>
               </li>
 
               <li class="nav-item">
+                <Link href="/projects">
+                  <a class="nav-link">Projects</a>
+                </Link>
+              </li>
+
+              {/* <li class="nav-item">
                 <Link href="/blog">
                   <a class="nav-link">Blog</a>
                 </Link>
-              </li>
+              </li> */}
 
               <li class="nav-item">
-                <Link href="/contato">
-                  <a class="nav-link">Contato</a>
+                <Link href="/contact">
+                  <a class="nav-link">Get in touch</a>
                 </Link>
               </li>
             </ul>

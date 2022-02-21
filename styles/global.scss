@@ -1,12 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+$primary-color: #101820;
+$secondary-font: "Poppins", sans-serif;
+$font-primary-color: #d6d1cd;
+$font-secondary-color: #71717a;
 
 body {
   font-family: "Poppins", sans-serif;
+  color: $primary-color;
 }
 
-$primary-color: #101820;
-
-$font-secondary-color: #71717a;
+p {
+  color: $font-secondary-color;
+}
 
 img {
   max-width: 100%;
@@ -19,6 +25,14 @@ img {
   }
   svg {
     width: 160px;
+  }
+}
+
+.navbar-nav {
+  li {
+    @media (min-width: 991px) {
+      margin-left: 20px;
+    }
   }
 }
 
@@ -35,30 +49,25 @@ img {
   fill: #d6d1cd;
 }
 
-.default__btn {
-  // background-color: $primary-color;
-
-  color: #212121;
-  font-weight: 500;
-  text-decoration: none;
-
-  &:hover {
-    color: #ff1744;
-  }
-}
-
 .hero {
+  font-family: $secondary-font;
   background: $primary-color;
   min-height: 100vh;
   display: flex;
   align-items: center;
-  color: #fff !important;
   position: relative;
 
+  h1 {
+    font-size: 120px;
+    line-height: 1;
+    font-weight: 700;
+    color: $font-primary-color;
+    margin-left: -6px;
+  }
+
   p {
-    margin-bottom: 40px;
-    margin-top: 10px;
-    font-size: 20px;
+    margin: 0px;
+    color: $font-primary-color;
   }
 
   @media screen and (max-width: 768px) {
@@ -73,14 +82,22 @@ img {
       }
     }
   }
+}
 
-  video {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    opacity: 0.2;
-    z-index: -1;
+.classic__link {
+  text-decoration: none;
+  color: $font-secondary-color;
+  font-weight: 500;
+  display: block;
+  svg {
+    transition: all ease 0.3s;
+  }
+  &:hover {
+    color: #212121;
+
+    svg {
+      margin-left: 5px;
+    }
   }
 }
 
@@ -142,11 +159,12 @@ img {
 }
 
 .about {
-  padding: 50px 0;
   p {
-    font-weight: 400;
-    text-transform: uppercase;
-    color: #777;
+    margin-top: 10px;
+    line-height: 1.8;
+    @media screen and (min-width: 768px) {
+      padding-right: 40px;
+    }
   }
 
   h3 {
@@ -155,6 +173,12 @@ img {
     font-weight: 400;
     text-transform: uppercase;
   }
+}
+
+.about__img {
+  margin-top: -250px;
+  // z-index: 99;
+  position: relative;
 }
 
 .instafeed {
@@ -260,6 +284,10 @@ footer {
 
 .projects__section {
   padding: 100px 0;
+
+  h1 {
+    margin-bottom: 20px;
+  }
 }
 
 .projects {
@@ -271,12 +299,11 @@ footer {
     // border-radius: 16px;
     background-color: #212121;
     height: 600px;
-    min-width: calc(50% - 22.5px);
+    min-width: calc(33% - 22.5px);
     // transition: all ease 0.3s;
     margin-bottom: 50px;
     position: relative;
     cursor: pointer;
-    border-radius: 16px;
     overflow: hidden;
 
     .pj__content {
@@ -324,7 +351,7 @@ footer {
     }
 
     &.anonimatta {
-      background: url("/anonimatta.png");
+      background: url("https://i.pinimg.com/originals/22/a0/21/22a021bc8fe78cdd29aba0167054d63e.jpg");
       background-size: cover;
       background-position: center;
     }
@@ -338,6 +365,35 @@ footer {
       min-width: 100%;
       margin-bottom: 40px;
     }
+  }
+}
+
+.skills {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+
+  ul {
+    padding: 0;
+    li {
+      padding: 0;
+      list-style: none;
+      margin-bottom: 10px;
+    }
+  }
+
+  p {
+    padding-right: 0;
+  }
+}
+
+.links {
+  display: block;
+  margin-top: 30px;
+
+  a {
+    margin-bottom: 10px;
   }
 }
 
