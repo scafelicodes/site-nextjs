@@ -69,7 +69,7 @@ export default function Index() {
       </section> */}
 
       <ProjectsList />
-      <Instafeed />
+      {/* <Instafeed /> */}
       <Footer />
     </>
   );

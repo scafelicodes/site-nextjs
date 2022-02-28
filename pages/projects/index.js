@@ -8,11 +8,11 @@ export default function Produtos() {
       <div className="container">
         <div className="row">
           <div className="col-6">
-            <h1>Produtos</h1>
-            <p>
+            <h1>Projects</h1>
+            {/* <p>
               Vamos analisar as informações enviadas no formulário e
               retornaremos o quanto antes!
-            </p>
+            </p> */}
           </div>
         </div>
       </div>

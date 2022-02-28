@@ -8,7 +8,7 @@ export default function Contato() {
       <div className="container">
         <div className="row">
           <div className="col-6">
-            <h1>Fale conosco</h1>
+            <h1>Get in touch</h1>
           </div>
         </div>
       </div>

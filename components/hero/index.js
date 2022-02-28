@@ -6,10 +6,9 @@ export default function Hero() {
       <div className="container" data-aos="fade">
         <p>Hello, I'm Gustavo</p>
         <h1>
-          FRONTEND
-          <br /> DEVELOPER
+          Frontend
+          <br /> Developer
         </h1>
-        <p>based in Rio de Janeiro, Brazil</p>
       </div>
     </section>
   );
