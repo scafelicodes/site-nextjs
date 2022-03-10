@@ -6,7 +6,7 @@ export default function About() {
       <div className="row">
         <div className="col-md-6 d-flex align-items-center">
           <div data-aos="fade">
-            <h1>About me</h1>
+            <h1>Um pouco sobre mim</h1>
             <p>
               Passionate about technology since 1990, I joined the web
               development area in 2008. A few years later, in 2015, I graduated
@@ -16,7 +16,7 @@ export default function About() {
             </p>
 
             <a className="classic__link" href="/about">
-              Read more <FiArrowRight />
+              Leia mais <FiArrowRight />
             </a>
           </div>
         </div>

@@ -60,19 +60,19 @@ export default function Header() {
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
                 <Link href="/about">
-                  <a class="nav-link">About</a>
+                  <a class="nav-link">Sobre</a>
                 </Link>
               </li>
 
               <li class="nav-item">
-                <Link href="/works">
-                  <a class="nav-link">Works</a>
+                <Link href="/clientes">
+                  <a class="nav-link">Clientes</a>
                 </Link>
               </li>
 
               <li class="nav-item">
                 <Link href="/projects">
-                  <a class="nav-link">Projects</a>
+                  <a class="nav-link">Projetos</a>
                 </Link>
               </li>
 
@@ -84,7 +84,7 @@ export default function Header() {
 
               <li class="nav-item">
                 <Link href="/contact">
-                  <a class="nav-link">Get in touch</a>
+                  <a class="nav-link">Contato</a>
                 </Link>
               </li>
             </ul>

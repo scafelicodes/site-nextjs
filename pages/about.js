@@ -19,15 +19,26 @@ export default function Sobre() {
             <div>
               <h4>Experience</h4>
 
-              <p>12+ years of experience as a web developer.</p>
+              <ul>
+                <li>5+ years of experience React</li>
+                <li>12+ years of experience as a web developer</li>
+              </ul>
             </div>
 
             <div>
               <h4>Skills</h4>
               <ul>
-                <li>React • Next.js • Gatsby</li>
+                <li>React • Vue • Next.js • Gatsby</li>
                 <li>WordPress • WooCommerce • PHP & SQL</li>
-                <li>Javascript ES6 • Git • HTML & CSS • PHP & SQL</li>
+                <li>Javascript ES6 • Git • HTML & CSS</li>
+                <li>TypeScript • SCSS (Sass and Less) • HTML & CSS</li>
+                <li>Testers (Karma, Jasmine and Jest)</li>
+              </ul>
+
+              <h4>Tools</h4>
+              <ul>
+                <li>Tailwind • Bootstrap • Ant Design</li>
+                <li>WordPress • WooCommerce</li>
               </ul>
             </div>
 
