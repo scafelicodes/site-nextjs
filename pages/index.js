@@ -13,63 +13,24 @@ export default function Index() {
     <>
       <Header />
 
-      <Hero />
+      <div className="hero container">
+        <h1>
+          Desenvolvedor Frontend especializado em ReactJS, React Native e
+          JavaScript.
+        </h1>
 
-      <About />
+        <Link href="/">
+          <a>Solicitar proposta</a>
+        </Link>
+      </div>
 
-      {/* <section className="presentation">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-9">
-              <p>Quem somos</p>
-              <h1>
-                Tecnologia, inovação e criatividade em estratégias focadas nos
-                seus objetivos de negócio.
-              </h1>
-            </div>
+      {/* <About /> */}
 
-            <div className="col-md-3">
-              <p>O que fazemos</p>
-
-              <ul>
-                <li>
-                  <Link href="/servicos">
-                    <a>Produção de Conteúdo</a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/servicos">
-                    <a>Gestão de Redes Sociais</a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/servicos">
-                    <a>Criação de sites e lojas virtuais</a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/servicos">
-                    <a>Lançamento de Produtos Digitais</a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/servicos">
-                    <a>Fotos e vídeos para e-commerce</a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/servicos">
-                    <a>Produção Audiovisual</a>
-                  </Link>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section> */}
+      {/* <Hero /> */}
 
       <ProjectsList />
       {/* <Instafeed /> */}
+
       <Footer />
     </>
   );

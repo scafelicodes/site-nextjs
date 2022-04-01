@@ -6,14 +6,14 @@ export default function Links() {
       <div className="container bio">
         <div className="text-center">
           <img className="logo-header" src="logo-scafeli-white.svg" />
-          <p>Agência de Publicidade ⚡</p>
+          <p>Gustavo Scafeli ⚡</p>
         </div>
 
         <ul>
           <li>
             <Link href="/">
               <a target="_blank">
-                <i class="fab fa-whatsapp"></i> Solicite um orçamento
+                <i class="fab fa-whatsapp"></i> Solicite uma proposta
               </a>
             </Link>
           </li>
@@ -27,19 +27,11 @@ export default function Links() {
           </li>
 
           <li>
-            <Link href="/">
-              <a target="_blank">
-                <i class="fas fa-tv"></i> Conheça o nosso site
-              </a>
-            </Link>
-          </li>
-
-          <li>
             <a
               target="_blank"
               href="https://open.spotify.com/playlist/1pAw0anb2Ntp0cR5DJFpWf?si=6f0e4777ab8d464c"
             >
-              <i class="fab fa-spotify"></i> Ouça a nossa playlist
+              <i class="fab fa-spotify"></i> Minha playlist no Spotify
             </a>
           </li>
         </ul>

@@ -1,13 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
-$primary-color: #101820;
+$primary-color: #131517;
 $secondary-font: "Poppins", sans-serif;
-$font-primary-color: #d6d1cd;
-$font-secondary-color: #71717a;
+$font-primary-color: #aab2bd;
+$font-secondary-color: #656d78;
+
+$btn-color: #f7326e;
+$pre-title-color: #49D6D2;
 
 body {
   font-family: "Poppins", sans-serif;
-  color: $primary-color;
+  background: url(https://jonasmilan.cc/wp-content/uploads/2021/04/Group-777.svg), #131517;
+  background-repeat: no-repeat;
+  background-position: right top;
 }
 
 p {
@@ -19,73 +24,68 @@ img {
   height: auto;
 }
 
-.navbar-brand {
-  .cls-1 {
-    fill: #d6d1cd;
-  }
-  svg {
-    width: 160px;
-  }
-}
-
-.navbar-nav {
-  li {
-    @media (min-width: 991px) {
-      margin-left: 20px;
-    }
-  }
-}
-
 .header {
   width: 100%;
   padding: 10px 0;
-  background-color: $primary-color;
+  background: none;
   // position: fixed;
   // top: 0;
   z-index: 1;
-}
 
-.cls-1 {
-  fill: #d6d1cd;
-}
+  .logo-header {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 40px;
+    margin-bottom: 40px;
 
-.hero {
-  font-family: $secondary-font;
-  background: $primary-color;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  position: relative;
-  margin-top: -76px;
-  z-index: -1;
-
-  h1 {
-    text-transform: uppercase;
-    font-size: 120px;
-    line-height: 1;
-    font-weight: 700;
     color: $font-primary-color;
-    margin-left: -6px;
-  }
 
-  p {
-    margin: 0px;
-    color: $font-primary-color;
-  }
+    img {
+      width: 70px;
+      height: auto;
+      border-radius: 50%;
+      margin-right: 12px;
+    }
 
-  @media screen and (max-width: 768px) {
-    height: 520px;
-    .logo {
-      width: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      svg {
-        width: 200px;
-      }
+    h3 {
+      margin-bottom: 0;
+      margin: 0;
+    }
+
+    p {
+      line-height: 1;
+      margin: 0;
+      font-size: 14px;
+      margin-left: 2px
     }
   }
 }
+
+
+.hero {
+  margin-top: 60px;
+  margin-bottom: 120px;
+  h1 {
+    color: #fff;
+    font-size: 50px;
+    line-height: 65px;
+    font-weight: 300;
+    max-width: 800px;
+    margin-bottom: 40px;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+    background: $btn-color;
+    padding: 20px 60px;
+    display: inline-block;
+    border-radius: 6px;
+  }
+}
+
+
 
 .classic__link {
   text-decoration: none;
@@ -104,62 +104,6 @@ img {
   }
 }
 
-.presentation {
-  background-color: #f7f7f7;
-  // color: #fff;
-  padding: 100px 0;
-
-  h1 {
-    font-size: 50px;
-    letter-spacing: -1px;
-    font-weight: 700;
-  }
-
-  p {
-    margin: 0;
-    border-bottom: 1px solid #303030;
-    padding: 10px 0;
-    margin-bottom: 40px;
-    font-weight: 700;
-  }
-
-  ul {
-    margin: 0;
-    padding: 0;
-    li {
-      list-style: none;
-      margin-bottom: 18px;
-      transition: all ease 0.3s;
-      font-size: 14px;
-
-      a {
-        color: #212121;
-        text-decoration: none;
-        font-weight: 500;
-      }
-
-      &:hover {
-        margin-left: 6px;
-
-        a {
-          color: $primary-color;
-        }
-      }
-
-      &:last-child {
-        margin-bottom: 0;
-      }
-    }
-  }
-
-  @media screen and (max-width: 768px) {
-    padding: 50px 0;
-    h1 {
-      font-size: 26px;
-      margin-bottom: 50px;
-    }
-  }
-}
 
 .about {
   p {
@@ -190,84 +134,124 @@ img {
 }
 
 footer {
-  background-color: $primary-color;
   color: $font-secondary-color;
   padding: 120px 0;
 
-  p {
-    margin-bottom: 0px;
+  h3 {
+    color: #fff;
+    margin-bottom: 60px;
   }
 
-  ul {
-    padding: 0;
-    margin: 0;
-    margin-top: 30px;
 
-    li {
-      list-style: none;
-      transition: all ease 0.3s;
-      display: inline;
-      padding: 0 20px;
+  a {
+    color: #fff;
+    text-decoration: none;
+    background: $btn-color;
+    padding: 20px 60px;
+    display: inline-block;
+    border-radius: 6px;
 
-      a {
-        color: $font-secondary-color;
-        text-decoration: none;
-        font-weight: 400;
-        transition: all ease 0.3s;
-
-        &:hover {
-          color: #fff;
-        }
-      }
+    &:hover {
+      color: #fff;
     }
   }
 }
 
-.bio-page-scafeli {
-  background: #212121;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-
-  .logo-header {
-    max-width: 200px;
-  }
-
-  .bio {
-    p {
-      color: #777;
-      margin-bottom: 40px;
-      margin-top: 10px;
-    }
-  }
-
-  ul {
-    margin: 0;
-    padding: 0;
-    li {
-      list-style: none;
-      background: #fff;
-      margin-bottom: 20px;
-      text-align: center;
-      border-radius: 5px;
-
-      a {
-        width: 100%;
-        display: inline-block;
-        color: #212121;
-        padding: 15px;
-        font-weight: 500;
-        text-decoration: none;
-      }
-    }
-  }
-}
 
 .projects__section {
   padding: 100px 0;
+  text-align: center;
+  background-color: #fff;
 
-  h1 {
+  span {
+    color: #49D6D2;
+    display: inline-block;
     margin-bottom: 20px;
+  }
+
+  h1 {    
+    // color: #fff;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+
+  .projects {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+  
+    .project__item {
+      border-radius: 12px;
+      background-color: #212121;
+      height: 600px;
+      min-width: calc(33% - 22.5px);
+      // transition: all ease 0.3s;
+      margin-bottom: 50px;
+      position: relative;
+      cursor: pointer;
+      overflow: hidden;
+  
+      .pj__content {
+        position: absolute;
+  
+        bottom: 0px;
+        left: 0px;
+        padding: 60px 30px 30px;
+        margin: 0;
+        color: #fff;
+        background: linear-gradient(
+          0deg,
+          rgba(0, 0, 0, 0.8) 0%,
+          rgba(0, 0, 0, 0) 100%
+        );
+        width: 100%;
+      }
+  
+      // &:hover {
+      //   transform: translateY(-8px) !important;
+      // }
+  
+      &.zapily {
+        background: url("/zapily123.png");
+        background-size: cover;
+        background-position: center;
+      }
+  
+      &.cfb7 {
+        background: url("/cfb7.png");
+        background-size: cover;
+        background-position: center;
+      }
+  
+      &.befit {
+        background: url("/befit.png");
+        background-size: cover;
+        background-position: center;
+      }
+  
+      &.adidas {
+        background: url("/adidas.png");
+        background-size: cover;
+        background-position: center;
+      }
+  
+      &.anonimatta {
+        background: url("https://i.pinimg.com/originals/22/a0/21/22a021bc8fe78cdd29aba0167054d63e.jpg");
+        background-size: cover;
+        background-position: center;
+      }
+    }
+  
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+  
+      .project__item {
+        height: 300px;
+        min-width: 100%;
+        margin-bottom: 40px;
+      }
+    }
   }
 }
 
@@ -276,83 +260,7 @@ footer {
   margin-bottom: 30px;
 }
 
-.projects {
-  flex-wrap: wrap;
-  display: flex;
-  justify-content: space-between;
 
-  .project__item {
-    // border-radius: 16px;
-    background-color: #212121;
-    height: 600px;
-    min-width: calc(33% - 22.5px);
-    // transition: all ease 0.3s;
-    margin-bottom: 50px;
-    position: relative;
-    cursor: pointer;
-    overflow: hidden;
-
-    .pj__content {
-      position: absolute;
-
-      bottom: 0px;
-      left: 0px;
-      padding: 60px 30px 30px;
-      margin: 0;
-      color: #fff;
-      background: linear-gradient(
-        0deg,
-        rgba(0, 0, 0, 0.8) 0%,
-        rgba(0, 0, 0, 0) 100%
-      );
-      width: 100%;
-    }
-
-    // &:hover {
-    //   transform: translateY(-8px) !important;
-    // }
-
-    &.zapily {
-      background: url("/zapily123.png");
-      background-size: cover;
-      background-position: center;
-    }
-
-    &.cfb7 {
-      background: url("/cfb7.png");
-      background-size: cover;
-      background-position: center;
-    }
-
-    &.befit {
-      background: url("/befit.png");
-      background-size: cover;
-      background-position: center;
-    }
-
-    &.adidas {
-      background: url("/adidas.png");
-      background-size: cover;
-      background-position: center;
-    }
-
-    &.anonimatta {
-      background: url("https://i.pinimg.com/originals/22/a0/21/22a021bc8fe78cdd29aba0167054d63e.jpg");
-      background-size: cover;
-      background-position: center;
-    }
-  }
-
-  @media screen and (max-width: 768px) {
-    flex-direction: column;
-
-    .project__item {
-      height: 300px;
-      min-width: 100%;
-      margin-bottom: 40px;
-    }
-  }
-}
 
 .skills {
   width: 100%;

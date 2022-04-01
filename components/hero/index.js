@@ -4,11 +4,12 @@ export default function Hero() {
   return (
     <section className="hero">
       <div className="container" data-aos="fade">
-        <p>Olá, eu sou o Gustavo</p>
-        <h1>
-          Frontend
-          <br /> Developer
-        </h1>
+        <h6>CREATING</h6>
+        <h3>YouTube</h3>
+        <h3>Teaching</h3>
+        <h3>Lightroom Presets Collection</h3>
+        <h3>Photography Work</h3>
+        <h3>YouTube</h3>
       </div>
     </section>
   );
