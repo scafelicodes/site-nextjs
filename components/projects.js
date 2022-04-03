@@ -5,7 +5,7 @@ export default function ProjectsList() {
   return (
     <section className="projects__section">
       <div className="container">
-        <span>MÉTODO VALIDADO</span>
+        <span>🔥 MÉTODOS VALIDADOS</span>
         <h1>Dezenas de projetos entregando performance e resultados</h1>
 
         <div className="projects">

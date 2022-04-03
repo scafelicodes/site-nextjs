@@ -1,3 +1,12 @@
+/* css.gg */
+@import url('https://css.gg/css');
+
+/* UNPKG */
+@import url('https://unpkg.com/css.gg/icons/all.css');
+
+/* JSDelivr */
+@import url('https://cdn.jsdelivr.net/npm/css.gg/icons/all.css');
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
 $primary-color: #131517;
@@ -38,14 +47,13 @@ img {
     text-decoration: none;
     margin-top: 40px;
     margin-bottom: 40px;
-
-    color: $font-primary-color;
+    color: #fff;
 
     img {
       width: 70px;
       height: auto;
       border-radius: 50%;
-      margin-right: 12px;
+      margin-right: 16px;
     }
 
     h3 {
@@ -57,11 +65,34 @@ img {
       line-height: 1;
       margin: 0;
       font-size: 14px;
-      margin-left: 2px
+      margin-left: 0px
     }
   }
 }
 
+
+.main-link {
+  text-decoration: none;
+  color: #fff;
+  width: 250px;
+  height: 60px;
+  background: $btn-color;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  transition: all ease .2s;
+
+  i {
+    margin-left: 5px;
+  }
+
+  &:hover {
+    color: #fff;
+    opacity: 0.8;
+    // background-color: #f90;
+  }
+}
 
 .hero {
   margin-top: 60px;
@@ -73,16 +104,11 @@ img {
     font-weight: 300;
     max-width: 800px;
     margin-bottom: 40px;
+    span {
+      font-weight: 600;
+    }
   }
 
-  a {
-    color: #fff;
-    text-decoration: none;
-    background: $btn-color;
-    padding: 20px 60px;
-    display: inline-block;
-    border-radius: 6px;
-  }
 }
 
 
@@ -143,18 +169,7 @@ footer {
   }
 
 
-  a {
-    color: #fff;
-    text-decoration: none;
-    background: $btn-color;
-    padding: 20px 60px;
-    display: inline-block;
-    border-radius: 6px;
 
-    &:hover {
-      color: #fff;
-    }
-  }
 }
 
 
@@ -164,7 +179,9 @@ footer {
   background-color: #fff;
 
   span {
-    color: #49D6D2;
+    color: $btn-color;
+    font-size: 14px;
+    font-weight: 600;
     display: inline-block;
     margin-bottom: 20px;
   }
@@ -317,3 +334,85 @@ footer {
     border-radius: 20px;
   }
 }
+
+
+
+.contact-page {
+
+  .animation-contact {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+
+  h1 {
+    text-align: center;
+    color: #fff;
+  }
+
+  p {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  form {
+    background-color: #212121;
+    padding: 60px 40px;
+    border-radius: 20px;
+    max-width: 640px;
+    margin: 0 auto;
+
+    h4 {
+      color: #fff;
+      margin-bottom: 20px;
+      font-size: 18px;
+      text-align: center;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+      
+      input, textarea {
+        background-color: #131517;
+        color: #fff;
+        border: none;
+      }
+
+      input {
+        height: 40px;
+      }
+    }
+
+    label {
+      color: $font-primary-color;
+      font-size: 12px;
+    }
+
+    button {
+      width: 100%;
+      border: none;
+    }
+  }
+
+  .footer-form-contact {
+    text-align: center;
+    padding: 50px 0;
+    a {
+      display: inline-flex;
+      color: $font-secondary-color;
+      text-decoration: none;
+      align-items: center;
+
+      i {
+        margin-right: 5px;
+      }
+
+      transition: all ease .3s;
+
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+}
+

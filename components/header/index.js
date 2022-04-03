@@ -12,36 +12,10 @@ export default function Header() {
             />
             <div>
               <h3>Gustavo Scafeli</h3>
-              <p>Software Engineer</p>
+              <p>Software Engineer & Content Creator</p>
             </div>
           </a>
         </Link>
-
-        {/* <ul>
-          <li>
-            <Link href="/">
-              <a>Home</a>
-            </Link>
-          </li>
-
-          <li>
-            <Link href="/">
-              <a>Home</a>
-            </Link>
-          </li>
-
-          <li>
-            <Link href="/">
-              <a>Home</a>
-            </Link>
-          </li>
-
-          <li>
-            <Link href="/">
-              <a>Home</a>
-            </Link>
-          </li>
-        </ul> */}
       </div>
     </div>
   );
