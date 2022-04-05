@@ -193,81 +193,100 @@ footer {
     margin-bottom: 60px;
   }
 
-  .projects {
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: space-between;
   
-    .project__item {
-      border-radius: 12px;
-      background-color: #212121;
-      height: 600px;
-      min-width: calc(33% - 22.5px);
-      // transition: all ease 0.3s;
-      margin-bottom: 50px;
-      position: relative;
-      cursor: pointer;
-      overflow: hidden;
-  
-      .pj__content {
-        position: absolute;
-  
-        bottom: 0px;
-        left: 0px;
-        padding: 60px 30px 30px;
-        margin: 0;
-        color: #fff;
-        background: linear-gradient(
-          0deg,
-          rgba(0, 0, 0, 0.8) 0%,
-          rgba(0, 0, 0, 0) 100%
-        );
-        width: 100%;
-      }
-  
-      // &:hover {
-      //   transform: translateY(-8px) !important;
-      // }
-  
-      &.zapily {
-        background: url("/zapily123.png");
-        background-size: cover;
-        background-position: center;
-      }
-  
-      &.cfb7 {
-        background: url("/cfb7.png");
-        background-size: cover;
-        background-position: center;
-      }
-  
-      &.befit {
-        background: url("/befit.png");
-        background-size: cover;
-        background-position: center;
-      }
-  
-      &.adidas {
-        background: url("/adidas.png");
-        background-size: cover;
-        background-position: center;
-      }
-  
-      &.anonimatta {
-        background: url("https://i.pinimg.com/originals/22/a0/21/22a021bc8fe78cdd29aba0167054d63e.jpg");
-        background-size: cover;
-        background-position: center;
-      }
+}
+
+.projects {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+
+  .project__item {
+    // border-radius: 12px;
+    background-color: #212121;
+    height: 420px;
+    // width: 600px;
+    margin-bottom: 50px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+
+    .pj__content {
+      position: absolute;
+
+      bottom: 0px;
+      left: 0px;
+      padding: 60px 30px 30px;
+      margin: 0;
+      color: #fff;
+      background: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.8) 0%,
+        rgba(0, 0, 0, 0) 100%
+      );
+      width: 100%;
     }
-  
-    @media screen and (max-width: 768px) {
-      flex-direction: column;
-  
-      .project__item {
-        height: 300px;
-        min-width: 100%;
-        margin-bottom: 40px;
-      }
+
+    // &:hover {
+    //   transform: translateY(-8px) !important;
+    // }
+
+    &.zapily {
+      background: url("/zapily123.png");
+      background-size: cover;
+      background-position: center;
+    }
+
+    &.cfb7 {
+      background: url("/cfb7.png");
+      background-size: cover;
+      background-position: center;
+    }
+
+    &.befit {
+      background: url("/befit.png");
+      background-size: cover;
+      background-position: center;
+    }
+
+    &.adidas {
+      background: url("/adidas.png");
+      background-size: cover;
+      background-position: center;
+    }
+
+    &.anonimatta {
+      background: url("https://i.pinimg.com/originals/22/a0/21/22a021bc8fe78cdd29aba0167054d63e.jpg");
+      background-size: cover;
+      background-position: center;
+    }
+
+    &.disney {
+      background: url("https://images.unsplash.com/photo-1532358668075-5801c5a45839?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1566&q=80");
+      background-size: cover;
+      background-position: center;
+    }
+
+    &.attech {
+      background: url("https://images.unsplash.com/photo-1542986386-660ccbbedaf8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80");
+      background-size: cover;
+      background-position: center;
+    }
+
+    &.queromed {
+      background: url("https://images.unsplash.com/photo-1596496050755-c923e73e42e1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1453&q=80");
+      background-size: cover;
+      background-position: center;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+
+    .project__item {
+      height: 300px;
+      min-width: 100%;
+      margin-bottom: 40px;
     }
   }
 }
@@ -415,4 +434,13 @@ footer {
     }
   }
 }
+
+
+
+
+
+
+
+
+
 

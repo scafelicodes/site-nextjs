@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Link from "next/dist/client/link";
 
+import Carousel from "react-multi-carousel";
+
 import Header from "./../components/header";
 import Footer from "./../components/footer";
 import Hero from "./../components/hero";
@@ -17,7 +19,6 @@ export default function Index() {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <Header />
-
       <div className="hero container">
         <h1>
           <span>Engenheiro de Software</span> especializado em{" "}
@@ -32,12 +33,10 @@ export default function Index() {
       </div>
 
       {/* <About /> */}
-
       {/* <Hero /> */}
-
       <ProjectsList />
-      {/* <Instafeed /> */}
 
+      {/* <Instafeed /> */}
       <Footer />
     </>
   );
