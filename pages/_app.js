@@ -9,7 +9,6 @@ import { DefaultSeo } from "next-seo";
 import SEO from "../next-seo.config";
 
 import AOS from "aos";
-
 import "aos/dist/aos.css";
 
 function MyApp({ Component, pageProps }) {

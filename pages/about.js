@@ -1,3 +1,5 @@
+import Head from "next/head";
+
 import Header from "../components/header";
 import Footer from "../components/footer";
 import { FiArrowRight } from "react-icons/fi";
@@ -7,6 +9,11 @@ export default function Sobre() {
   return (
     <div className="contato">
       <Header />
+
+      <Head>
+        <title>About • Gustavo Scafeli</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <div className="container">
         <div className="row">
           <div className="col-6">
@@ -14,8 +21,12 @@ export default function Sobre() {
           </div>
         </div>
 
+        <div className="container">
+          <h1>Helping brands thrive in the digital world</h1>
+        </div>
+
         <div className="row">
-          <div className="skills">
+          {/* <div className="skills">
             <div>
               <h4>Experience</h4>
 
@@ -50,7 +61,7 @@ export default function Sobre() {
                 <li>+5 years</li>
               </ul>
             </div>
-          </div>
+          </div> */}
 
           <div className="links">
             <a

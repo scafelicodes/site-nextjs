@@ -12,7 +12,7 @@ export default function Header() {
             />
             <div>
               <h3>Gustavo Scafeli</h3>
-              <p>Software Engineer & Content Creator</p>
+              <p>Software Engineer</p>
             </div>
           </a>
         </Link>

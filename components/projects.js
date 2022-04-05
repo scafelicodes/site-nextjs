@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Link from "next/link";
 import Carousel from "react-multi-carousel";
 
@@ -26,6 +27,10 @@ export default function ProjectsList() {
 
   return (
     <section className="projects__section">
+      <Head>
+        <title>Trabalhos • Gustavo Scafeli</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <div className="">
         <span>🔥 MÉTODOS VALIDADOS</span>
         <h1>Dezenas de projetos entregando performance e resultados</h1>
@@ -38,45 +43,45 @@ export default function ProjectsList() {
           responsive={responsive}
         >
           <div className="project__item cfb7 rounded-lg">
-            <div className="pj__content">
+            {/* <div className="pj__content">
               <h3>CFB7 Brasil</h3>
-            </div>
+            </div> */}
           </div>
 
           <div className="project__item zapily rounded-lg">
-            <div className="pj__content">
+            {/* <div className="pj__content">
               <h3>Zapily</h3>
-            </div>
+            </div> */}
           </div>
 
           <div className="project__item disney">
-            <div className="pj__content">
+            {/* <div className="pj__content">
               <h3>Disney+</h3>
-            </div>
+            </div> */}
           </div>
 
           <div className="project__item anonimatta">
-            <div className="pj__content">
+            {/* <div className="pj__content">
               <h3>Anonimatta</h3>
-            </div>
+            </div> */}
           </div>
 
           <div className="project__item queromed">
-            <div className="pj__content">
+            {/* <div className="pj__content">
               <h3>QueroMed</h3>
-            </div>
+            </div> */}
           </div>
 
           <div className="project__item attech">
-            <div className="pj__content">
+            {/* <div className="pj__content">
               <h3>Attech</h3>
-            </div>
+            </div> */}
           </div>
         </Carousel>
       </div>
 
       <div className="container">
-        <Link href="/works">
+        <Link href="/trabalhos">
           <a className="classic__link">
             Ver mais projetos <FiArrowRight />
           </a>

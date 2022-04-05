@@ -1,8 +1,6 @@
 import Head from "next/head";
 import Link from "next/dist/client/link";
 
-import Carousel from "react-multi-carousel";
-
 import Header from "./../components/header";
 import Footer from "./../components/footer";
 import Hero from "./../components/hero";
@@ -15,7 +13,7 @@ export default function Index() {
   return (
     <>
       <Head>
-        <title>Gustavo Scafeli - Software Engineer Engineer</title>
+        <title>Gustavo Scafeli • Software Engineer</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <Header />
@@ -25,7 +23,7 @@ export default function Index() {
           <span>ReactJS</span>, <span>NextJS</span> e <span>JavaScript</span>.
         </h1>
 
-        <Link href="/solicitar-proposta">
+        <Link href="/contato">
           <a className="main-link">
             Solicitar proposta <i className="gg-arrow-right"></i>
           </a>

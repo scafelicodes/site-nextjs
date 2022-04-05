@@ -5,7 +5,7 @@ export default function Footer() {
     <footer>
       <div className="container text-center">
         <h3>Vamos criar um projeto juntos?</h3>
-        <Link href="/solicitar-proposta">
+        <Link href="/contato">
           <a className="main-link">
             Solicitar proposta <i className="gg-arrow-right"></i>
           </a>
