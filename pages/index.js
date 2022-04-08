@@ -25,7 +25,7 @@ export default function Index() {
 
         <Link href="/contato">
           <a className="main-link">
-            Solicitar proposta <i className="gg-arrow-right"></i>
+            Entrar em contato <i className="gg-arrow-right"></i>
           </a>
         </Link>
       </div>

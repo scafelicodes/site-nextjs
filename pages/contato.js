@@ -27,7 +27,7 @@ export default function Contato() {
           </div>
 
           <h1>Vamos criar um projeto juntos?</h1>
-          <p>Antes de falar sobre o projeto leia as informações importantes.</p>
+          <p>Me conte mais sobre o seu projeto :)</p>
 
           <form>
             <h4>Por favor, preencha o formulário</h4>
@@ -40,7 +40,7 @@ export default function Contato() {
               <input type="email" className="form-control" id="email" />
             </div>
             <div className="form-group">
-              <label htmlFor="telefone">Telefone</label>
+              <label htmlFor="telefone">Link do projeto</label>
               <input type="text" className="form-control" id="telefone" />
             </div>
             <div className="form-group">
@@ -52,7 +52,7 @@ export default function Contato() {
               ></textarea>
             </div>
             <button type="submit" className="main-link">
-              Solicitar proposta <i className="gg-arrow-right"></i>
+              Enviar mensagem <i className="gg-arrow-right"></i>
             </button>
           </form>
 

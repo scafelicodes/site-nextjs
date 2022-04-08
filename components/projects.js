@@ -27,10 +27,6 @@ export default function ProjectsList() {
 
   return (
     <section className="projects__section">
-      <Head>
-        <title>Trabalhos • Gustavo Scafeli</title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      </Head>
       <div className="">
         <span>🔥 MÉTODOS VALIDADOS</span>
         <h1>Dezenas de projetos entregando performance e resultados</h1>
