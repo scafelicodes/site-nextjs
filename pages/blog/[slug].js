@@ -20,7 +20,7 @@ export default function Post({ post, morePosts, preview }) {
           <PostTitle>Loading…</PostTitle>
         ) : (
           <div className="container">
-            <article className="mb-32">
+            <article className="single-post">
               <Head>
                 <title>{post.title} | Gustavo Scafeli</title>
                 <meta property="og:image" content={post.ogImage.url} />

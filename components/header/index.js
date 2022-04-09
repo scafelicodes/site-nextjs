@@ -33,6 +33,12 @@ export default function Header() {
               </a>
             </Link>
 
+            <Link href="/blog">
+              <a id="about" className="menu-item">
+                Blog <i className="gg-arrow-right"></i>
+              </a>
+            </Link>
+
             <Link href="/contato">
               <a id="contact" className="menu-item">
                 Contato <i className="gg-arrow-right"></i>

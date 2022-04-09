@@ -173,11 +173,11 @@ footer {
 
   h3 {
     color: #fff;
-    margin-bottom: 60px;
   }
 
-
-
+  p {
+    margin-bottom: 40px;
+  }
 }
 
 
@@ -520,3 +520,29 @@ footer {
   }
 }
 
+
+
+.single-post {
+  background: #fff;
+  // padding: 20px;
+  // border-radius: 20px;
+  border-radius: 20px 20px 0 0;
+
+  .header__post {
+    border-radius: 20px 20px 0 0;
+    display: flex;
+    align-items: flex-end;
+    padding: 40px;
+
+    h1 {
+      color: #fff;
+    }
+    .author__post {
+      color: #fff;
+    }
+  }
+
+  .post__body {
+    padding: 40px
+  }
+}
