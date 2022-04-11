@@ -35,7 +35,7 @@ function MyApp({ Component, pageProps }) {
           src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
         ></script>
 
-        <title>Gustavo Scafeli – Software Engineer</title>
+        <title>Scafeli</title>
         <link rel="shortcut icon" href="/favicon.png" />
       </Head>
       <DefaultSeo {...SEO} />

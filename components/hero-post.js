@@ -29,9 +29,9 @@ export default function HeroPost({
       </Link>
       <div>
         <div>
-          <span>
+          {/* <span>
             <DateFormatter dateString={date} />
-          </span>
+          </span> */}
           <h3>
             <Link as={`/blog/${slug}`} href="/blog/[slug]">
               <a className="hover:underline">{title}</a>

@@ -5,7 +5,7 @@ export default function Contato() {
   return (
     <div className="contato">
       <Head>
-        <title>Contato • Gustavo Scafeli</title>
+        <title>Contato | Scafeli</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
 

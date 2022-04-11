@@ -13,15 +13,15 @@ export default function Index() {
   return (
     <>
       <Head>
-        <title>Gustavo Scafeli • Software Engineer</title>
+        <title>Scafeli </title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <Header />
       <div className="hero container">
-        <h1>
+        {/* <h1>
           <span>Engenheiro de Software</span> especializado em{" "}
           <span>ReactJS</span>, <span>NextJS</span> e <span>JavaScript</span>.
-        </h1>
+        </h1> */}
 
         <Link href="/contato">
           <a className="main-link">

@@ -11,7 +11,7 @@ export default function Index({ allPosts }) {
     <>
       <Layout>
         <Head>
-          <title>Blog - Gustavo Scafeli</title>
+          <title>Blog | Scafeli</title>
         </Head>
 
         <div className="container">

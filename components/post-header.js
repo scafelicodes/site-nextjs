@@ -20,7 +20,8 @@ export default function PostHeader({ title, coverImage, date, author }) {
           <div className="author__post">
             {/* <Avatar name={author.name} picture={author.picture} /> */}
             <span>
-              {author.name} • <DateFormatter dateString={date} />
+              Por {author.name}
+              {/* • <DateFormatter dateString={date} /> */}
             </span>
           </div>
         </div>
