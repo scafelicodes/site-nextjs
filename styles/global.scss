@@ -19,7 +19,6 @@ $pre-title-color: #49D6D2;
 
 body {
   font-family: "Poppins", sans-serif;
-  background: #000;
   background-repeat: no-repeat;
   background-position: right top;
 }
@@ -33,27 +32,54 @@ img {
   height: auto;
 }
 
+.awwwards {
+  position: fixed;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 999;
+}
+
 .header {
   width: 100%;
   padding: 40px 0;
   background: none;
-  // position: fixed;
-  // top: 0;
+  position: fixed;
+  top: 0;
   z-index: 1;
 
-  .container {
+  .container-fluid {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 90%;
   }
 
   .logo-header {
-   
     img {
       width: 120px;
-    }
+    }   
+  }
+}
 
-    
+.whatsapp-link {
+  width: 90%;
+  background-color: #000;
+  border-radius: 20px;
+  padding: 20px;
+  color: #fff;
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  z-index: 999;
+  transition: all ease .3s;
+
+  &:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: $font-secondary-color;
   }
 }
 
@@ -82,20 +108,68 @@ img {
 }
 
 .hero {
-  margin-top: 60px;
-  margin-bottom: 120px;
+  background-color: #000;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  position: relative;
   h1 {
     color: #fff;
-    font-size: 50px;
-    line-height: 65px;
-    font-weight: 300;
+    font-size: 200px;
+    line-height: 1;
+    margin: 0;
+    font-weight: 700;
     max-width: 800px;
-    margin-bottom: 40px;
-    span {
-      font-weight: 600;
+    position: relative;
+
+    .stick-hero {
+      position: absolute;
+      left: -20px;
+      bottom: -10px;
+      transform: rotate(-20deg);
     }
   }
 
+  
+
+  p {
+    color: #fff;
+    font-size: 26px;
+    max-width: 570px;
+    font-weight: 300;
+
+    b {
+      font-weight: 500;
+    }
+  }
+
+}
+
+
+.services-links {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #f8f8f8;
+
+  h1 {
+    
+    span {
+      color: $font-primary-color;
+    }
+    a {
+      color: $primary-color;
+      transition: all ease .2s;
+      &:hover {
+        text-decoration: none;
+        color: $font-secondary-color;
+      }
+    }
+  }
 }
 
 
@@ -147,11 +221,13 @@ img {
 }
 
 footer {
+  background: #f8f8f8;
   color: $font-secondary-color;
   padding: 120px 0;
 
   h3 {
-    color: #fff;
+    color: $primary-color;
+    font-weight: 600;
   }
 
   p {
@@ -346,15 +422,15 @@ footer {
 .contact-page {
 
   .animation-contact {
-    margin-top: 50px;
     display: flex;
     justify-content: center;
   }
 
   h1 {
     text-align: center;
-    color: #fff;
-  }
+    color: $primary-color;
+    font-weight: 600;  
+}
 
   p {
     text-align: center;
@@ -416,7 +492,7 @@ footer {
       transition: all ease .3s;
 
       &:hover {
-        color: #fff;
+        color: $primary-color;
       }
     }
   }

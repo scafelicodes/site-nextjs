@@ -6,14 +6,10 @@ export default function Header() {
   return (
     <>
       <div className="header">
-        <div className="container">
+        <div className="container-fluid">
           <Link href="/">
             <a className="logo-header">
               <img src="/logo-white.svg" alt="Logo" />
-              {/* <div>
-                <h3>Gustavo Scafeli</h3>
-                <p>Software Engineer</p>
-              </div> */}
             </a>
           </Link>
 
@@ -44,6 +40,12 @@ export default function Header() {
           </Menu>
         </div>
       </div>
+
+      <a href="#" className="whatsapp-link">
+        Clique aqui para entrar em contato
+      </a>
+
+      <img src="awwwards.png" alt="awwwards" className="awwwards" />
     </>
   );
 }

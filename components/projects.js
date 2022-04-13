@@ -29,7 +29,7 @@ export default function ProjectsList() {
     <section className="projects__section">
       <div className="">
         <span>🔥 MÉTODOS VALIDADOS</span>
-        <h1>Dezenas de projetos entregando performance e resultados</h1>
+        <h1>+300 projetos entregando performance e resultados</h1>
 
         <Carousel
           className="projects"

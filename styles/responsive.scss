@@ -1,9 +1,16 @@
 @media screen and (max-width: 768px) {
   .hero {
       text-align: center;
+      flex-direction: column;
+      gap: 20px;
       h1 {
-        font-size: 30px;
-        line-height: 40px;
+        font-size: 80px;
+        line-height: 80px;
+      }
+
+      p {
+        padding: 0 20px;
+        font-size: 22px;
       }
   }
 
