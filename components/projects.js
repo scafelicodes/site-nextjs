@@ -28,8 +28,8 @@ export default function ProjectsList() {
   return (
     <section className="projects__section">
       <div className="">
-        <span>🔥 MÉTODOS VALIDADOS</span>
-        <h1>+300 projetos entregando performance e resultados</h1>
+        {/* <span>🔥 MÉTODOS VALIDADOS</span>
+        <h1>+300 projetos entregando performance e resultados</h1> */}
 
         <Carousel
           className="projects"
@@ -39,50 +39,50 @@ export default function ProjectsList() {
           responsive={responsive}
         >
           <div className="project__item cfb7 rounded-lg">
-            {/* <div className="pj__content">
+            <div className="pj__content">
               <h3>CFB7 Brasil</h3>
-            </div> */}
+            </div>
           </div>
 
           <div className="project__item zapily rounded-lg">
-            {/* <div className="pj__content">
+            <div className="pj__content">
               <h3>Zapily</h3>
-            </div> */}
+            </div>
           </div>
 
           <div className="project__item disney">
-            {/* <div className="pj__content">
+            <div className="pj__content">
               <h3>Disney+</h3>
-            </div> */}
+            </div>
           </div>
 
           <div className="project__item anonimatta">
-            {/* <div className="pj__content">
+            <div className="pj__content">
               <h3>Anonimatta</h3>
-            </div> */}
+            </div>
           </div>
 
           <div className="project__item queromed">
-            {/* <div className="pj__content">
+            <div className="pj__content">
               <h3>QueroMed</h3>
-            </div> */}
+            </div>
           </div>
 
           <div className="project__item attech">
-            {/* <div className="pj__content">
+            <div className="pj__content">
               <h3>Attech</h3>
-            </div> */}
+            </div>
           </div>
         </Carousel>
       </div>
 
-      <div className="container">
+      {/* <div className="container">
         <Link href="/trabalhos">
           <a className="classic__link">
             Ver mais projetos <FiArrowRight />
           </a>
         </Link>
-      </div>
+      </div> */}
     </section>
   );
 }

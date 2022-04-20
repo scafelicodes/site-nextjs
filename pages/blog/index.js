@@ -11,7 +11,7 @@ export default function Index({ allPosts }) {
     <>
       <Layout>
         <Head>
-          <title>Blog | Scafeli</title>
+          <title>Blog - Scafeli</title>
         </Head>
 
         <div className="container">
@@ -25,9 +25,7 @@ export default function Index({ allPosts }) {
               excerpt={heroPost.excerpt}
             />
           )}
-          <div className="row">
-            {morePosts.length > 0 && <MoreStories posts={morePosts} />}
-          </div>
+          {morePosts.length > 0 && <MoreStories posts={morePosts} />}
         </div>
       </Layout>
     </>

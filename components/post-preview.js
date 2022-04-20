@@ -13,17 +13,13 @@ export default function PostPreview({
 }) {
   return (
     <div className="col-md-6 post-preview-item">
-      <div>
-        <Link as={`/blog/${slug}`} href="/blog/[slug]">
-          <CoverImage
-            slug={slug}
-            title={title}
-            src={coverImage}
-            height={278}
-            width={556}
-          />
-        </Link>
-      </div>
+      <Link as={`/blog/${slug}`} href="/blog/[slug]">
+        <div
+          className="img-post-preview"
+          style={{ background: `url(${coverImage})` }}
+        />
+      </Link>
+
       {/* <span>
         <DateFormatter dateString={date} />
       </span> */}

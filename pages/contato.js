@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Link from "next/link";
 
+import Header from "../components/header";
+
 export default function Contato() {
   return (
     <div className="contato">
@@ -9,7 +11,7 @@ export default function Contato() {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
 
-      {/* <Header /> */}
+      <Header />
       <div className="container contact-page">
         <div className="">
           {/* <iframe src="https://embed.lottiefiles.com/animation/23708"></iframe> */}

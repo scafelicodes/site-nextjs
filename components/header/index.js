@@ -1,51 +1,93 @@
 import Link from "next/link";
 
-import { elastic as Menu } from "react-burger-menu";
-
 export default function Header() {
   return (
     <>
       <div className="header">
-        <div className="container-fluid">
-          <Link href="/">
+        <div className="container">
+          {/* <Link href="/">
             <a className="logo-header">
               <img src="/logo-white.svg" alt="Logo" />
             </a>
-          </Link>
+          </Link> */}
 
-          <Menu right>
+          <nav class="navbar navbar-expand-lg navbar-dark">
             <Link href="/">
-              <a id="home" className="menu-item">
-                Home <i className="gg-arrow-right"></i>
+              <a class="navbar-brand">
+                <img src="/logo-white.svg" alt="Logo" />
               </a>
             </Link>
 
-            <Link href="/sobre">
-              <a id="about" className="menu-item">
-                Sobre <i className="gg-arrow-right"></i>
-              </a>
-            </Link>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
 
-            <Link href="/blog">
-              <a id="about" className="menu-item">
-                Blog <i className="gg-arrow-right"></i>
-              </a>
-            </Link>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <Link href="/">
+                    <a class="nav-link">Home</a>
+                  </Link>
+                </li>
+                <li class="nav-item">
+                  <Link href="/sobre">
+                    <a class="nav-link">Sobre</a>
+                  </Link>
+                </li>
+                <li class="nav-item">
+                  <Link href="/trabalhos">
+                    <a class="nav-link">Trabalhos</a>
+                  </Link>
+                </li>
+                <li class="nav-item">
+                  <Link href="/blog">
+                    <a class="nav-link">Blog</a>
+                  </Link>
+                </li>
+                <li class="nav-item">
+                  <Link href="/academy">
+                    <a class="nav-link">Academy</a>
+                  </Link>
+                </li>
 
-            <Link href="/contato">
-              <a id="contact" className="menu-item">
-                Contato <i className="gg-arrow-right"></i>
-              </a>
-            </Link>
-          </Menu>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    Fale conosco
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <Link href="/contato">
+                      <a class="dropdown-item">Solicite um orçamento</a>
+                    </Link>
+                    <Link href="/contato">
+                      <a class="dropdown-item">Envie uma mensagem</a>
+                    </Link>
+
+                    <Link href="/contato">
+                      <a class="dropdown-item">Nosso WhatsApp</a>
+                    </Link>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
         </div>
       </div>
-
-      <a href="#" className="whatsapp-link">
-        Clique aqui para entrar em contato
-      </a>
-
-      <img src="awwwards.png" alt="awwwards" className="awwwards" />
     </>
   );
 }
