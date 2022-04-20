@@ -47,16 +47,16 @@ export default function Header() {
                     <a class="nav-link">Trabalhos</a>
                   </Link>
                 </li>
-                <li class="nav-item">
+                {/* <li class="nav-item">
                   <Link href="/blog">
                     <a class="nav-link">Blog</a>
                   </Link>
-                </li>
-                <li class="nav-item">
+                </li> */}
+                {/* <li class="nav-item">
                   <Link href="/academy">
                     <a class="nav-link">Academy</a>
                   </Link>
-                </li>
+                </li> */}
 
                 <li class="nav-item dropdown">
                   <a
@@ -78,9 +78,9 @@ export default function Header() {
                       <a class="dropdown-item">Envie uma mensagem</a>
                     </Link>
 
-                    <Link href="/contato">
+                    {/* <Link href="/contato">
                       <a class="dropdown-item">Nosso WhatsApp</a>
-                    </Link>
+                    </Link> */}
                   </div>
                 </li>
               </ul>

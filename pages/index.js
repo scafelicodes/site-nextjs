@@ -13,7 +13,7 @@ export default function Index() {
   return (
     <>
       <Head>
-        <title>Scafeli - Estúdio Criativo</title>
+        <title>Scafeli - Agência de Publicidade em Itaboraí, RJ</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta
           name="description"

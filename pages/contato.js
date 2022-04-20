@@ -28,8 +28,8 @@ export default function Contato() {
             ></lottie-player>
           </div>
 
-          <h1>Vamos criar um projeto juntos?</h1>
-          <p>Me conte mais sobre o seu projeto :)</p>
+          <h1>Que bom te ver por aqui</h1>
+          <p>Nos conte mais sobre o seu projeto :)</p>
 
           <form>
             <h4>Por favor, preencha o formulário</h4>
