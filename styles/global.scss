@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap');
 
-$primary-color: #131517;
+$primary-color: #000;
 $secondary-font: 'Inter', sans-serif;
 $font-primary-color: #aab2bd;
 $font-secondary-color: #656d78;
@@ -29,7 +29,7 @@ h1,h2,h3,h4,h5,h6 {
 .header {
   width: 100%;
   padding: 40px 0;
-  background: #131313;
+  background: #000;
 
   .navbar-nav {
     font-family: 'Oswald', sans-serif;
@@ -39,7 +39,7 @@ h1,h2,h3,h4,h5,h6 {
 
     @media screen and (max-width: 768px) {
       text-align: center;
-      padding-top: 50px;
+      padding-top: 20px;
       
       .dropdown-menu {
         text-align: center;
@@ -49,10 +49,81 @@ h1,h2,h3,h4,h5,h6 {
 
   .navbar-brand {
      img {
-      width: 200px;
+      width:40px;
     }  
   }
+
+  @media screen and (max-width: 768px) {
+    padding: 10px 0;
+    .navbar-brand {
+      img {
+       width:30px;
+     }  
+   }
+  }
 }
+
+
+
+.works-page {
+  .nav-tabs {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border-bottom: none;    
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+  }
+
+  .nav {
+    gap: 30px;
+
+    @media screen and (max-width: 768px) {
+      flex-wrap: nowrap;
+      overflow: hidden;
+      overflow-x: scroll;
+      -webkit-overflow-scrolling: touch;
+      -ms-overflow-style: -ms-autohiding-scrollbar;
+    }
+  }
+
+  .nav-link {
+    border: none;
+    white-space: nowrap;
+    padding: 0;
+    color: #656d78;
+
+    &.active {
+      color: #000;
+    }
+  }
+
+
+  // work list
+
+  .work-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    .work-item {
+      width: calc(25% - 20px);
+      height: 520px;
+      background-position: center !important;
+      background-size: cover !important;
+    }
+
+    @media screen and (max-width: 768px) {
+      .work-item {
+        width: calc(50% - 20px);
+        height: 260px;
+      }
+    
+      
+    }
+  }
+}
+
+
 
 
 
@@ -72,7 +143,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .hero {
-  background: #131313;
+  background: #000;
   text-align: center;
   padding: 50px 0 100px;
 
@@ -122,7 +193,7 @@ h1,h2,h3,h4,h5,h6 {
     transition: all ease 0.3s;
   }
   &:hover {
-    color: #212121;
+    color: #000;
 
     svg {
       margin-left: 5px;
@@ -165,7 +236,7 @@ footer {
   padding: 120px 0;
 
   h3 {
-    color: #131313;
+    color: #000;
     font-weight: 500;
     @media screen and (max-width: 768px) {
       font-size: 20px;
@@ -212,7 +283,7 @@ footer {
 
   .project__item {
     // border-radius: 12px;
-    background-color: #212121;
+    background-color: #000;
     height: 420px;
     // width: 600px;
     margin-bottom: 50px;
@@ -364,6 +435,12 @@ footer {
 }
 
 
+.about-page, .works-page {
+  padding: 50px 0;
+}
+
+
+
 
 .contact-page {
 
@@ -374,7 +451,7 @@ footer {
 
   h1 {
     text-align: center;
-    color: $primary-color;
+    color: #000;
     font-weight: 600;  
 }
 
@@ -438,7 +515,7 @@ footer {
       transition: all ease .3s;
 
       &:hover {
-        color: $primary-color;
+        color: #000;
       }
     }
   }

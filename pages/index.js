@@ -29,9 +29,9 @@ export default function Index() {
 
       <div className="hero">
         <div className="container">
-          <h1 data-aos="fade" data-aos-duration="500">
-            We are Creators
-          </h1>
+          {/* <h1 data-aos="fade" data-aos-duration="500">
+            Scafeli
+          </h1> */}
 
           <div class="embed-responsive embed-responsive-16by9">
             <iframe
