@@ -1,16 +1,30 @@
+import _map from "lodash/map";
 import Link from "next/link";
 
 export default function Header() {
+  const mainmenu = [
+    {
+      title: "Início",
+      href: "/",
+    },
+    {
+      title: "Sobre",
+      href: "/sobre",
+    },
+    {
+      title: "Trabalhos",
+      href: "/trabalhos",
+    },
+    {
+      title: "Vagas",
+      href: "/vagas",
+    },
+  ];
+
   return (
     <>
       <div className="header">
         <div className="container">
-          {/* <Link href="/">
-            <a className="logo-header">
-              <img src="/logo-white.svg" alt="Logo" />
-            </a>
-          </Link> */}
-
           <nav class="navbar navbar-expand-lg navbar-dark">
             <Link href="/">
               <a class="navbar-brand">
@@ -32,31 +46,13 @@ export default function Header() {
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                  <Link href="/">
-                    <a class="nav-link">Home</a>
-                  </Link>
-                </li>
-                <li class="nav-item">
-                  <Link href="/sobre">
-                    <a class="nav-link">Sobre</a>
-                  </Link>
-                </li>
-                <li class="nav-item">
-                  <Link href="/trabalhos">
-                    <a class="nav-link">Trabalhos</a>
-                  </Link>
-                </li>
-                {/* <li class="nav-item">
-                  <Link href="/blog">
-                    <a class="nav-link">Blog</a>
-                  </Link>
-                </li> */}
-                {/* <li class="nav-item">
-                  <Link href="/academy">
-                    <a class="nav-link">Academy</a>
-                  </Link>
-                </li> */}
+                {_map(mainmenu, (item) => (
+                  <li class="nav-item">
+                    <Link href={item.href}>
+                      <a class="nav-link">{item.title}</a>
+                    </Link>
+                  </li>
+                ))}
 
                 <li class="nav-item dropdown">
                   <a
