@@ -2,9 +2,54 @@ import Head from "next/head";
 import Header from "../../components/header";
 import Footer from "../../components/footer";
 
-import ProjectsList from "../../components/projects";
+import _map from "lodash/map";
+
+// import ProjectsList from "../../components/projects";
 
 export default function Projetos() {
+  const photo = [
+    {
+      title: "Projeto 1",
+      src: "/portfolio/photos/001.jpg",
+    },
+    {
+      title: "Projeto 2",
+      src: "/portfolio/photos/002.jpg",
+    },
+    {
+      title: "Projeto 3",
+      src: "/portfolio/photos/003.jpg",
+    },
+    {
+      title: "Projeto 4",
+      src: "/portfolio/photos/004.jpg",
+    },
+    {
+      title: "Projeto 5",
+      src: "/portfolio/photos/005.jpg",
+    },
+    {
+      title: "Projeto 6",
+      src: "/portfolio/photos/006.jpg",
+    },
+    {
+      title: "Projeto 7",
+      src: "/portfolio/photos/007.jpg",
+    },
+    {
+      title: "Projeto 8",
+      src: "/portfolio/photos/008.jpg",
+    },
+    {
+      title: "Projeto 9",
+      src: "/portfolio/photos/009.jpg",
+    },
+    {
+      title: "Projeto 10",
+      src: "/portfolio/photos/010.jpg",
+    },
+  ];
+
   return (
     <>
       <Head>
@@ -84,69 +129,14 @@ export default function Projetos() {
           >
             <div>
               <div className="work-list">
-                <div
-                  className="work-item"
-                  style={{
-                    background:
-                      "url(https://images.unsplash.com/photo-1556793313-2e9460949ddd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80)",
-                  }}
-                ></div>
-
-                <div
-                  className="work-item"
-                  style={{
-                    background:
-                      "url(https://images.unsplash.com/photo-1556793313-2e9460949ddd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80)",
-                  }}
-                ></div>
-
-                <div
-                  className="work-item"
-                  style={{
-                    background:
-                      "url(https://images.unsplash.com/photo-1556793313-2e9460949ddd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80)",
-                  }}
-                ></div>
-
-                <div
-                  className="work-item"
-                  style={{
-                    background:
-                      "url(https://images.unsplash.com/photo-1556793313-2e9460949ddd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80)",
-                  }}
-                ></div>
-
-                <div
-                  className="work-item"
-                  style={{
-                    background:
-                      "url(https://images.unsplash.com/photo-1556793313-2e9460949ddd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80)",
-                  }}
-                ></div>
-
-                <div
-                  className="work-item"
-                  style={{
-                    background:
-                      "url(https://images.unsplash.com/photo-1556793313-2e9460949ddd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80)",
-                  }}
-                ></div>
-
-                <div
-                  className="work-item"
-                  style={{
-                    background:
-                      "url(https://images.unsplash.com/photo-1556793313-2e9460949ddd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80)",
-                  }}
-                ></div>
-
-                <div
-                  className="work-item"
-                  style={{
-                    background:
-                      "url(https://images.unsplash.com/photo-1556793313-2e9460949ddd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80)",
-                  }}
-                ></div>
+                {_map(photo, (item) => (
+                  <div
+                    className="work-item"
+                    style={{
+                      background: `url(${item.src}) center center / cover no-repeat`,
+                    }}
+                  ></div>
+                ))}
               </div>
             </div>
           </div>
@@ -158,69 +148,14 @@ export default function Projetos() {
           >
             <div>
               <div className="work-list">
-                <div
-                  className="work-item"
-                  style={{
-                    background:
-                      "url(https://images.unsplash.com/photo-1556793313-2e9460949ddd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80)",
-                  }}
-                ></div>
-
-                <div
-                  className="work-item"
-                  style={{
-                    background:
-                      "url(https://images.unsplash.com/photo-1556793313-2e9460949ddd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80)",
-                  }}
-                ></div>
-
-                <div
-                  className="work-item"
-                  style={{
-                    background:
-                      "url(https://images.unsplash.com/photo-1556793313-2e9460949ddd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80)",
-                  }}
-                ></div>
-
-                <div
-                  className="work-item"
-                  style={{
-                    background:
-                      "url(https://images.unsplash.com/photo-1556793313-2e9460949ddd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80)",
-                  }}
-                ></div>
-
-                <div
-                  className="work-item"
-                  style={{
-                    background:
-                      "url(https://images.unsplash.com/photo-1556793313-2e9460949ddd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80)",
-                  }}
-                ></div>
-
-                <div
-                  className="work-item"
-                  style={{
-                    background:
-                      "url(https://images.unsplash.com/photo-1556793313-2e9460949ddd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80)",
-                  }}
-                ></div>
-
-                <div
-                  className="work-item"
-                  style={{
-                    background:
-                      "url(https://images.unsplash.com/photo-1556793313-2e9460949ddd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80)",
-                  }}
-                ></div>
-
-                <div
-                  className="work-item"
-                  style={{
-                    background:
-                      "url(https://images.unsplash.com/photo-1556793313-2e9460949ddd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80)",
-                  }}
-                ></div>
+                {_map(photo, (item) => (
+                  <div
+                    className="work-item"
+                    style={{
+                      background: `url(${item.src}) center center / cover no-repeat`,
+                    }}
+                  ></div>
+                ))}
               </div>
             </div>
           </div>
@@ -232,69 +167,14 @@ export default function Projetos() {
           >
             <div>
               <div className="work-list">
-                <div
-                  className="work-item"
-                  style={{
-                    background:
-                      "url(https://images.unsplash.com/photo-1556793313-2e9460949ddd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80)",
-                  }}
-                ></div>
-
-                <div
-                  className="work-item"
-                  style={{
-                    background:
-                      "url(https://images.unsplash.com/photo-1556793313-2e9460949ddd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80)",
-                  }}
-                ></div>
-
-                <div
-                  className="work-item"
-                  style={{
-                    background:
-                      "url(https://images.unsplash.com/photo-1556793313-2e9460949ddd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80)",
-                  }}
-                ></div>
-
-                <div
-                  className="work-item"
-                  style={{
-                    background:
-                      "url(https://images.unsplash.com/photo-1556793313-2e9460949ddd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80)",
-                  }}
-                ></div>
-
-                <div
-                  className="work-item"
-                  style={{
-                    background:
-                      "url(https://images.unsplash.com/photo-1556793313-2e9460949ddd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80)",
-                  }}
-                ></div>
-
-                <div
-                  className="work-item"
-                  style={{
-                    background:
-                      "url(https://images.unsplash.com/photo-1556793313-2e9460949ddd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80)",
-                  }}
-                ></div>
-
-                <div
-                  className="work-item"
-                  style={{
-                    background:
-                      "url(https://images.unsplash.com/photo-1556793313-2e9460949ddd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80)",
-                  }}
-                ></div>
-
-                <div
-                  className="work-item"
-                  style={{
-                    background:
-                      "url(https://images.unsplash.com/photo-1556793313-2e9460949ddd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80)",
-                  }}
-                ></div>
+                {_map(photo, (item) => (
+                  <div
+                    className="work-item"
+                    style={{
+                      background: `url(${item.src}) center center / cover no-repeat`,
+                    }}
+                  ></div>
+                ))}
               </div>
             </div>
           </div>
@@ -307,69 +187,14 @@ export default function Projetos() {
           >
             <div>
               <div className="work-list">
-                <div
-                  className="work-item"
-                  style={{
-                    background:
-                      "url(https://images.unsplash.com/photo-1556793313-2e9460949ddd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80)",
-                  }}
-                ></div>
-
-                <div
-                  className="work-item"
-                  style={{
-                    background:
-                      "url(https://images.unsplash.com/photo-1556793313-2e9460949ddd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80)",
-                  }}
-                ></div>
-
-                <div
-                  className="work-item"
-                  style={{
-                    background:
-                      "url(https://images.unsplash.com/photo-1556793313-2e9460949ddd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80)",
-                  }}
-                ></div>
-
-                <div
-                  className="work-item"
-                  style={{
-                    background:
-                      "url(https://images.unsplash.com/photo-1556793313-2e9460949ddd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80)",
-                  }}
-                ></div>
-
-                <div
-                  className="work-item"
-                  style={{
-                    background:
-                      "url(https://images.unsplash.com/photo-1556793313-2e9460949ddd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80)",
-                  }}
-                ></div>
-
-                <div
-                  className="work-item"
-                  style={{
-                    background:
-                      "url(https://images.unsplash.com/photo-1556793313-2e9460949ddd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80)",
-                  }}
-                ></div>
-
-                <div
-                  className="work-item"
-                  style={{
-                    background:
-                      "url(https://images.unsplash.com/photo-1556793313-2e9460949ddd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80)",
-                  }}
-                ></div>
-
-                <div
-                  className="work-item"
-                  style={{
-                    background:
-                      "url(https://images.unsplash.com/photo-1556793313-2e9460949ddd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80)",
-                  }}
-                ></div>
+                {_map(photo, (item) => (
+                  <div
+                    className="work-item"
+                    style={{
+                      background: `url(${item.src}) center center / cover no-repeat`,
+                    }}
+                  ></div>
+                ))}
               </div>
             </div>
           </div>

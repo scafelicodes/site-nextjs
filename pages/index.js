@@ -67,11 +67,7 @@ export default function Index() {
               <p>É apenas o começo!</p>
             </div>
             <div className="col-md-6">
-              <img
-                data-aos="fade-left"
-                data-aos-duration="500"
-                src="/supreme-scafeli.png"
-              />
+              <img src="/supreme-scafeli.png" />
             </div>
           </div>
         </div>
