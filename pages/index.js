@@ -13,7 +13,7 @@ export default function Index() {
   return (
     <>
       <Head>
-        <title>Scafeli - Produtora Audiovisual</title>
+        <title>Scafeli - Agência de Publicidade</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta
           name="description"
