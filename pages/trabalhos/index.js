@@ -104,19 +104,6 @@ export default function Projetos() {
                 Redes Sociais
               </a>
             </li>
-            <li class="nav-item" role="presentation">
-              <a
-                class="nav-link"
-                id="webdesign-tab"
-                data-toggle="tab"
-                href="#webdesign"
-                role="tab"
-                aria-controls="webdesign"
-                aria-selected="false"
-              >
-                Web Design
-              </a>
-            </li>
           </ul>
         </div>
 
@@ -164,26 +151,6 @@ export default function Projetos() {
             id="contact"
             role="tabpanel"
             aria-labelledby="contact-tab"
-          >
-            <div>
-              <div className="work-list">
-                {_map(photo, (item) => (
-                  <div
-                    className="work-item"
-                    style={{
-                      background: `url(${item.src}) center center / cover no-repeat`,
-                    }}
-                  ></div>
-                ))}
-              </div>
-            </div>
-          </div>
-
-          <div
-            class="tab-pane fade"
-            id="webdesign"
-            role="tabpanel"
-            aria-labelledby="webdesign-tab"
           >
             <div>
               <div className="work-list">

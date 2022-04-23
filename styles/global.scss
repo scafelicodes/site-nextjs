@@ -83,6 +83,31 @@ h1,h2,h3,h4,h5,h6 {
       overflow-x: scroll;
       -webkit-overflow-scrolling: touch;
       -ms-overflow-style: -ms-autohiding-scrollbar;
+      padding-bottom: 10px;
+
+      /* width */
+      &::-webkit-scrollbar {
+        height: 5px;
+        
+      }
+
+      /* Track */
+      &::-webkit-scrollbar-track {
+        background: #f1f1f1;
+        border-radius: 5px;
+      }
+
+      /* Handle */
+      &::-webkit-scrollbar-thumb {
+        background: #656d78;
+        max-width: 30px !important;
+        border-radius: 5px;
+      }
+
+      /* Handle on hover */
+      &::-webkit-scrollbar-thumb:hover {
+        background: #656d78;
+      }
     }
   }
 
@@ -160,9 +185,7 @@ h1,h2,h3,h4,h5,h6 {
   }
 
   @media screen and (max-width: 768px) {
-    .embed-responsive {
-      display: none;
-    }
+    display: none;
   }
 }
 

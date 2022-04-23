@@ -4,13 +4,13 @@ export default function Footer() {
   return (
     <footer>
       <div className="container text-center">
-        <h3>Vamos criar um projeto juntos?</h3>
-        <p>Estamos prontos para ajudar o seu negócio!</p>
+        <h3>Fácil de entender, impossível de ignorar.</h3>
+        <p>Vamos criar um projeto incrível juntos?</p>
         <Link href="/contato">
           <a className="main-link">Fale conosco</a>
         </Link>
 
-        <p className="credits">© Scafeli 2022, Itaboraí - Rio de Janeiro</p>
+        <p className="credits">©Scafeli 2022. Todos os direitos reservados.</p>
       </div>
     </footer>
   );
