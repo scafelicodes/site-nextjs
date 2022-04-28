@@ -8,20 +8,23 @@ import About from "./../components/about";
 
 import ProjectsList from "../components/projects";
 import Instafeed from "../components/instafeed";
+import Process from "../components/process";
 
 export default function Index() {
   return (
     <>
       <Head>
-        <title>Scafeli - Agência de Publicidade</title>
+        <title>
+          Scafeli — Agência de Marketing, Social Media e Audiovisual
+        </title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta
           name="description"
-          content="Agência de publicidade em Itaboraí especializada na criação e promoção de marcas."
+          content="Agência de marketing em Itaboraí especializada na criação e promoção de marcas."
         />
         <meta
           name="keywords"
-          content="publicidade, agência, itaboraí, rj, marketing, design, fotografia, branding"
+          content="publicidade, agência, itaboraí, rj, marketing, design, fotografia, social media"
         />
         <meta name="author" content="Scafeli" />
       </Head>
@@ -33,7 +36,7 @@ export default function Index() {
             Scafeli
           </h1> */}
 
-          <div class="embed-responsive embed-responsive-16by9">
+          {/* <div class="embed-responsive embed-responsive-16by9">
             <iframe
               width="560"
               height="315"
@@ -43,9 +46,45 @@ export default function Index() {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
-          </div>
+          </div> */}
         </div>
       </div>
+
+      <Process />
+
+      <section className="services-section">
+        <div className="container">
+          <div className="service-list">
+            <h3>Social Media</h3>
+            <ul>
+              <li>Criação de conteúdo</li>
+              <li>Gestão estratégica</li>
+              <li>Marketing de Influência</li>
+              <li>Catálogos</li>
+            </ul>
+          </div>
+
+          <div className="service-list">
+            <h3>Audiovisual</h3>
+            <ul>
+              <li>Fotografia</li>
+              <li>Vídeos Institucionais</li>
+              <li>Reels Profissionais</li>
+              <li>Motion Design</li>
+            </ul>
+          </div>
+
+          <div className="service-list">
+            <h3>Marketing</h3>
+            <ul>
+              <li>Criação de sites</li>
+              <li>Gestão de e-commerce</li>
+              <li>Links patrocinados</li>
+              <li>Planejamento digital</li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
       <section className="hello-home">
         <div className="container">

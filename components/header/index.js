@@ -12,12 +12,20 @@ export default function Header() {
       href: "/sobre",
     },
     {
-      title: "Trabalhos",
-      href: "/trabalhos",
+      title: "Serviços",
+      href: "/servicos",
     },
     {
-      title: "Vagas",
-      href: "/vagas",
+      title: "Casting",
+      href: "/casting",
+    },
+    // {
+    //   title: "Vagas",
+    //   href: "/vagas",
+    // },
+    {
+      title: "Contato",
+      href: "/contato",
     },
   ];
 
@@ -54,7 +62,7 @@ export default function Header() {
                   </li>
                 ))}
 
-                <li class="nav-item dropdown">
+                {/* <li class="nav-item dropdown">
                   <a
                     class="nav-link dropdown-toggle"
                     href="#"
@@ -74,11 +82,8 @@ export default function Header() {
                       <a class="dropdown-item">Envie uma mensagem</a>
                     </Link>
 
-                    {/* <Link href="/contato">
-                      <a class="dropdown-item">Nosso WhatsApp</a>
-                    </Link> */}
                   </div>
-                </li>
+                </li> */}
               </ul>
             </div>
           </nav>

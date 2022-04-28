@@ -11,7 +11,7 @@ export default function Vagas() {
       <Header />
 
       <Head>
-        <title>Vagas - Scafeli</title>
+        <title>Vagas — Scafeli</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <section className="about-page">

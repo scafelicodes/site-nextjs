@@ -53,14 +53,14 @@ export default function Projetos() {
   return (
     <>
       <Head>
-        <title>Trabalhos - Scafeli</title>
+        <title>Cases — Scafeli</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
 
       <Header />
       <section className="works-page">
         <div className="container">
-          <h1>Trabalhos</h1>
+          <h1>Cases</h1>
         </div>
 
         <div className="container">
