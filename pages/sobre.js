@@ -15,7 +15,7 @@ export default function Sobre() {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <section className="about-page">
-        <div className="container">
+        <div className="container" data-aos="fade" data-aos-duration="1000">
           <h1 style={{ marginBottom: "30px" }}>
             Fácil de entender, <br />
             impossível de ignorar.
@@ -27,7 +27,11 @@ export default function Sobre() {
             <div className="col-md-6">
               <img src="about.jpg" />
             </div>
-            <div className="col-md-6 about-content">
+            <div
+              className="col-md-6  about-content"
+              data-aos="fade"
+              data-aos-duration="1000"
+            >
               <h1>Sobre nós</h1>
 
               <p>
