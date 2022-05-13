@@ -12,19 +12,14 @@ export default function Header() {
       href: "/sobre",
     },
     {
+      title: "Serviços",
+      href: "/servicos",
+    },
+    {
       title: "Trabalhos",
       href: "https://www.behance.net/scafeli",
       target: "_blank",
     },
-    {
-      title: "Serviços",
-      href: "/servicos",
-    },
-    // {
-    //   title: "Casting",
-    //   href: "/casting",
-    // },
-
     {
       title: "Orçamento",
       href: "https://bit.ly/orcamentoscafeli",

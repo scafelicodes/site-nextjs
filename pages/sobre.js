@@ -49,13 +49,17 @@ export default function Sobre() {
               <div className="links-about">
                 <p>
                   <Link href="/servicos">
-                    <a>+ Veja como fazemos</a>
+                    <a>
+                      <i class="fa-solid fa-chevron-right"></i> Veja como
+                      fazemos
+                    </a>
                   </Link>
                 </p>
 
                 <p>
                   <a href="https://www.behance.net/scafeli" target="_blank">
-                    + Conheça o nosso trabalho
+                    <i class="fa-solid fa-chevron-right"></i> Conheça o nosso
+                    trabalho
                   </a>
                 </p>
               </div>
