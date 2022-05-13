@@ -30,61 +30,7 @@ export default function Index() {
       </Head>
       <Header />
 
-      <div className="hero">
-        <div className="container">
-          {/* <h1 data-aos="fade" data-aos-duration="500">
-            Scafeli
-          </h1> */}
-
-          {/* <div class="embed-responsive embed-responsive-16by9">
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/StS5CJPE2UA?controls=0&mute=1&autoplay=1"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div> */}
-        </div>
-      </div>
-
-      <Process />
-
-      <section className="services-section">
-        <div className="container">
-          <div className="service-list">
-            <h3>Social Media</h3>
-            <ul>
-              <li>Criação de conteúdo</li>
-              <li>Gestão estratégica</li>
-              <li>Marketing de Influência</li>
-              <li>Catálogos</li>
-            </ul>
-          </div>
-
-          <div className="service-list">
-            <h3>Audiovisual</h3>
-            <ul>
-              <li>Fotografia</li>
-              <li>Vídeos Institucionais</li>
-              <li>Reels Profissionais</li>
-              <li>Motion Design</li>
-            </ul>
-          </div>
-
-          <div className="service-list">
-            <h3>Marketing</h3>
-            <ul>
-              <li>Criação de sites</li>
-              <li>Gestão de e-commerce</li>
-              <li>Links patrocinados</li>
-              <li>Planejamento digital</li>
-            </ul>
-          </div>
-        </div>
-      </section>
+      {/* <Process /> */}
 
       <section className="hello-home">
         <div className="container">

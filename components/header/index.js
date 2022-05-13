@@ -15,10 +15,10 @@ export default function Header() {
       title: "Serviços",
       href: "/servicos",
     },
-    {
-      title: "Casting",
-      href: "/casting",
-    },
+    // {
+    //   title: "Casting",
+    //   href: "/casting",
+    // },
     // {
     //   title: "Vagas",
     //   href: "/vagas",
