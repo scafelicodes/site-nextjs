@@ -10,7 +10,7 @@ export default function Links() {
             Scafeli
             {/* <img src="verified.svg" height={30} /> */}
           </h1>
-          <p className="text-bio">Fácil de entender, impossível de ignorar.</p>
+          <p className="text-bio">Marketing + Audiovisual</p>
         </div>
 
         <ul>
@@ -52,6 +52,14 @@ export default function Links() {
 
         <div className="footer-links">
           <img className="logo-footer" src="scafeli-dark.svg" />
+        </div>
+
+        <div className="text-center copy-footer">
+          <p className="text-bio">
+            <small>
+              Fácil de entender, impossível de ignorar. <br /> © 2022 Scafeli.
+            </small>
+          </p>
         </div>
       </div>
     </div>
