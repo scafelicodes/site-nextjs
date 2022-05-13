@@ -18,16 +18,16 @@ export default function Sobre() {
         <div className="container">
           <h1 style={{ marginBottom: "30px" }}>
             Fácil de entender, <br />
-            impossível de ignorar
+            impossível de ignorar.
           </h1>
         </div>
 
         <div className="container">
           <div className="row align-items-center">
             <div className="col-md-6">
-              <img src="https://images.unsplash.com/photo-1627735747011-b8d19caf7645?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1965&q=80" />
+              <img src="about.jpg" />
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6 about-content">
               <h1>Sobre nós</h1>
 
               <p>
@@ -35,6 +35,26 @@ export default function Sobre() {
                 profissionais de todas as áreas. Nossa missão é criar
                 experiências, não anúncios.
               </p>
+
+              <p>
+                Somos uma agência 360°. Entregamos conteúdos, produções
+                audiovisuais, gestão de redes sociais, lojas virtuais, marketing
+                de influência, anúncios patrocinados e muito mais.
+              </p>
+
+              <div className="links-about">
+                <p>
+                  <Link href="/servicos">
+                    <a>+ Veja como fazemos</a>
+                  </Link>
+                </p>
+
+                <p>
+                  <a href="https://www.behance.net/scafeli" target="_blank">
+                    + Conheça o nosso trabalho
+                  </a>
+                </p>
+              </div>
             </div>
           </div>
         </div>

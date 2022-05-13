@@ -15,13 +15,13 @@ export default function Links() {
 
         <ul>
           <li>
-            <a href="#" target="_blank">
+            <a href="https://bit.ly/orcamentoscafeli" target="_blank">
               <i class="fab fa-whatsapp"></i> Solicite uma proposta 📲
             </a>
           </li>
 
           <li>
-            <a href="#" target="_blank">
+            <a href="https://www.behance.net/scafeli" target="_blank">
               <i class="fas fa-mask"></i> Últimos trabalhos 🔥
             </a>
           </li>
@@ -57,7 +57,7 @@ export default function Links() {
         <div className="text-center copy-footer">
           <p className="text-bio">
             <small>
-              Fácil de entender, impossível de ignorar. <br /> © 2022 Scafeli.
+              Fácil de entender, impossível de ignorar. <br /> © Scafeli 2022.
             </small>
           </p>
         </div>

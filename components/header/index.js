@@ -12,6 +12,11 @@ export default function Header() {
       href: "/sobre",
     },
     {
+      title: "Trabalhos",
+      href: "https://www.behance.net/scafeli",
+      target: "_blank",
+    },
+    {
       title: "Serviços",
       href: "/servicos",
     },
@@ -19,13 +24,11 @@ export default function Header() {
     //   title: "Casting",
     //   href: "/casting",
     // },
-    // {
-    //   title: "Vagas",
-    //   href: "/vagas",
-    // },
+
     {
-      title: "Contato",
-      href: "/contato",
+      title: "Orçamento",
+      href: "https://bit.ly/orcamentoscafeli",
+      target: "_blank",
     },
   ];
 
@@ -57,7 +60,9 @@ export default function Header() {
                 {_map(mainmenu, (item) => (
                   <li class="nav-item">
                     <Link href={item.href}>
-                      <a class="nav-link">{item.title}</a>
+                      <a target={item?.target} class="nav-link">
+                        {item.title}
+                      </a>
                     </Link>
                   </li>
                 ))}

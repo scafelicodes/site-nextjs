@@ -662,6 +662,36 @@ footer {
 }
 
 
+.about-content {
+
+  h1 {
+    margin-bottom: 20px;
+
+    @media screen and (max-width: 768px) {
+      margin-top: 20px;
+    }
+  }
+
+  .links-about {
+    margin-top: 60px;
+
+    @media screen and (max-width: 768px) {
+      margin-top: 40px;
+    }
+  }
+
+  a {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color: #656d78;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+
 
 
 
