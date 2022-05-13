@@ -668,10 +668,37 @@ footer {
 
 
 .bio-page-scafeli {
-.logo-header {
-  width: 200px;
-  margin-top: 60px;
-}
+  background-color: #000;
+  min-height: 100vh;
+  padding-top: 100px;
+
+  h1 {
+    margin-top: 10px;
+    color: #fff;
+    display: inline-flex;
+    line-height: 1;
+
+    img {
+      width: 16px;
+      margin-left: 10px;
+    }
+  }
+
+
+  .logo-header {
+    width: 30px;
+    // margin-top: 100px;
+    display: flex;
+    clear: both;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  .logo-footer {
+    filter: grayscale(100%);
+    width: 30px;
+    opacity: 0.3;
+  }
 
 .text-bio {
   margin-top: 10px;
