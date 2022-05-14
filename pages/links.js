@@ -16,21 +16,19 @@ export default function Links() {
         <ul>
           <li>
             <a href="https://bit.ly/orcamentoscafeli" target="_blank">
-              <i class="fab fa-whatsapp"></i> Solicite uma proposta 📲
+              Solicite uma proposta 📲
             </a>
           </li>
 
           <li>
             <a href="https://www.behance.net/scafeli" target="_blank">
-              <i class="fas fa-mask"></i> Últimos trabalhos 🔥
+              Últimos trabalhos 🔥
             </a>
           </li>
 
           <li>
             <Link href="/">
-              <a>
-                <i class="fab fa-spotify"></i> Nosso site 💻
-              </a>
+              <a>Nosso site oficial 💻</a>
             </Link>
           </li>
 
@@ -39,13 +37,13 @@ export default function Links() {
               target="_blank"
               href="https://open.spotify.com/playlist/1pAw0anb2Ntp0cR5DJFpWf?si=6f0e4777ab8d464c"
             >
-              <i class="fab fa-spotify"></i> Estamos no Spotify 🎵
+              Estamos no Spotify 🎵
             </a>
           </li>
 
           <li>
             <a target="_blank" href="https://unsplash.com/@scafeli">
-              <i class="fab fa-spotify"></i> Material gratuito no Unsplash 📸
+              Material gratuito no Unsplash 📸
             </a>
           </li>
         </ul>
