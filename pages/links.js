@@ -10,10 +10,16 @@ export default function Links() {
             Scafeli
             {/* <img src="verified.svg" height={30} /> */}
           </h1>
-          <p className="text-bio">Marketing + Audiovisual</p>
+          <p className="text-bio">Marketing + Publicidade</p>
         </div>
 
         <ul>
+          {/* <li>
+            <a href="https://bit.ly/orcamentoscafeli" target="_blank">
+              Solicite uma proposta 📲
+            </a>
+          </li> */}
+
           <li>
             <a href="https://bit.ly/orcamentoscafeli" target="_blank">
               Solicite uma proposta 📲
