@@ -14,11 +14,11 @@ export default function Index() {
   return (
     <>
       <Head>
-        <title>Scafeli — Agência de Marketing e Publicidade</title>
+        <title>Scafeli — Agência de Marketing e Conteúdo</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta
           name="description"
-          content="Agência de marketing em Itaboraí especializada na criação e promoção de marcas."
+          content="Agência de marketing especializada na criação e promoção de marcas."
         />
         <meta
           name="keywords"
