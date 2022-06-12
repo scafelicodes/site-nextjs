@@ -16,9 +16,9 @@ export default function Header() {
       href: "/servicos",
     },
     {
-      title: "Trabalhos",
-      href: "https://www.behance.net/scafeli",
-      target: "_blank",
+      title: "Portfólio",
+      href: "/portfolio",
+      // target: "_blank",
     },
     {
       title: "Orçamento",

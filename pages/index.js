@@ -10,7 +10,11 @@ import ProjectsList from "../components/projects";
 import Instafeed from "../components/instafeed";
 import Process from "../components/process";
 
+import Carousel from "react-elastic-carousel";
+
 export default function Index() {
+  const breakPoints = [{ width: 1200, itemsToShow: 4 }];
+
   return (
     <>
       <Head>
@@ -55,6 +59,42 @@ export default function Index() {
           </div>
         </div>
       </section>
+
+      <div className="container-fluid slider-home">
+        <Carousel
+          breakPoints={breakPoints}
+          // enableAutoPlay={true}
+          enableMouseSwipe={true}
+          enableSwipe={true}
+          // showArrows={false}
+          itemPadding={[0, 5, 0, 5]}
+        >
+          <div>
+            <img src="portfolio/photos/001.jpg" />
+          </div>
+          <div>
+            <img src="portfolio/photos/001.jpg" />
+          </div>
+          <div>
+            <img src="portfolio/photos/001.jpg" />
+          </div>
+          <div>
+            <img src="portfolio/photos/001.jpg" />
+          </div>
+          <div>
+            <img src="portfolio/photos/001.jpg" />
+          </div>
+          <div>
+            <img src="portfolio/photos/001.jpg" />
+          </div>
+          <div>
+            <img src="portfolio/photos/001.jpg" />
+          </div>
+          <div>
+            <img src="portfolio/photos/001.jpg" />
+          </div>
+        </Carousel>
+      </div>
 
       <Footer />
     </>
