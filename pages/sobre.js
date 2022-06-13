@@ -57,10 +57,12 @@ export default function Sobre() {
                 </p>
 
                 <p>
-                  <a href="https://www.behance.net/scafeli" target="_blank">
-                    <i class="fa-solid fa-chevron-right"></i> Conheça o nosso
-                    trabalho
-                  </a>
+                  <Link href="/trabalhos">
+                    <a>
+                      <i class="fa-solid fa-chevron-right"></i> Conheça o nosso
+                      trabalho
+                    </a>
+                  </Link>
                 </p>
               </div>
             </div>

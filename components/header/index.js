@@ -16,14 +16,14 @@ export default function Header() {
       href: "/servicos",
     },
     {
-      title: "Portfólio",
-      href: "/portfolio",
+      title: "Trabalhos",
+      href: "/trabalhos",
       // target: "_blank",
     },
     {
-      title: "Orçamento",
-      href: "https://bit.ly/orcamentoscafeli",
-      target: "_blank",
+      title: "Fale conosco",
+      href: "/contato",
+      // target: "_blank",
     },
   ];
 

@@ -60,13 +60,11 @@ export default function Index() {
         </div>
       </section>
 
-      <div className="container-fluid slider-home">
+      {/* <div className="container-fluid slider-home">
         <Carousel
           breakPoints={breakPoints}
-          // enableAutoPlay={true}
           enableMouseSwipe={true}
           enableSwipe={true}
-          // showArrows={false}
           itemPadding={[0, 5, 0, 5]}
         >
           <div>
@@ -94,7 +92,7 @@ export default function Index() {
             <img src="portfolio/photos/001.jpg" />
           </div>
         </Carousel>
-      </div>
+      </div> */}
 
       <Footer />
     </>
