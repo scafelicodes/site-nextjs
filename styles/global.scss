@@ -35,6 +35,12 @@ h6 {
   padding: 40px 0;
   background: #000;
 
+  .navbar {
+    @media (min-width: 768px) {
+      padding: 0;
+    }
+  }
+
   .navbar-nav {
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
@@ -53,7 +59,7 @@ h6 {
 
   .navbar-brand {
     img {
-      width: 40px;
+      width: 140px;
     }
   }
 
@@ -730,7 +736,7 @@ footer {
   }
 
   .logo-header {
-    width: 30px;
+    width: 120px;
     // margin-top: 100px;
     display: flex;
     clear: both;
