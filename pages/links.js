@@ -10,7 +10,7 @@ export default function Links() {
             Scafeli
             {/* <img src="verified.svg" height={30} /> */}
           </h1>
-          <p className="text-bio">Marketing + Publicidade</p>
+          <p className="text-bio">Agência de Publicidade</p>
         </div>
 
         <ul>

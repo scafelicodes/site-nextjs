@@ -105,23 +105,6 @@ export default function Servicos() {
             </ul>
           </div>
         </div>
-
-        {/* <div className="row align-items-center">
-          <div className="col-md-6">
-            <img src="about.jpg" />
-          </div>
-
-          <div className="col-md-6">
-            <h1>Design</h1>
-            <p></p>
-            <ul>
-              <li>Direção Criativa</li>
-              <li>Tipografia</li>
-              <li>Catálogos</li>
-              <li>Embalagens</li>
-            </ul>
-          </div>
-        </div> */}
       </div>
 
       <Footer />
