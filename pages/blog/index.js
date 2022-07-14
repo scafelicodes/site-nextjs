@@ -11,7 +11,18 @@ export default function Index({ allPosts }) {
     <>
       <Layout>
         <Head>
-          <title>Blog — Scafeli</title>
+          <title>
+            Blog da Agência Scafeli sobre Marketing Digital, Inbound, SEO e
+            outros...
+          </title>
+          <meta
+            name="viewport"
+            content="initial-scale=1.0, width=device-width"
+          />
+          <meta
+            name="description"
+            content="Blog da Agência Scafeli que reúne informações sobre SEO, Facebook, Links Patrocinados e tudo o que gira no mercado de Marketing Digital. CLIQUE e confira!"
+          />
         </Head>
 
         <div className="container">

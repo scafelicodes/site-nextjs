@@ -5,7 +5,6 @@ export default function Footer() {
     <footer>
       <div className="container text-center">
         <h3>Fácil de entender, impossível de ignorar.</h3>
-        <p>Vamos criar um projeto incrível juntos?</p>
 
         <a
           target="_blank"

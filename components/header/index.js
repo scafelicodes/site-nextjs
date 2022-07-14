@@ -4,25 +4,20 @@ import Link from "next/link";
 export default function Header() {
   const mainmenu = [
     {
-      title: "Início",
-      href: "/",
-    },
-    {
-      title: "Sobre",
-      href: "/sobre",
+      title: "Empresa",
+      href: "/empresa",
     },
     {
       title: "Serviços",
       href: "/servicos",
     },
     {
-      title: "Trabalhos",
-      href: "/trabalhos",
-      // target: "_blank",
+      title: "Blog",
+      href: "/blog",
     },
     {
-      title: "Fale conosco",
-      href: "/contato",
+      title: "Trabalhos",
+      href: "/trabalhos",
       // target: "_blank",
     },
   ];
@@ -33,9 +28,7 @@ export default function Header() {
         <div className="container">
           <nav class="navbar navbar-expand-lg navbar-dark">
             <Link href="/">
-              <a class="navbar-brand">
-                <img src="/logo-white.svg" alt="Logo" />
-              </a>
+              <a class="navbar-brand">Scafeli</a>
             </Link>
 
             <button
@@ -62,28 +55,11 @@ export default function Header() {
                   </li>
                 ))}
 
-                {/* <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    id="navbarDropdown"
-                    role="button"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    Fale conosco
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <Link href="/contato">
-                      <a class="dropdown-item">Solicite um orçamento</a>
-                    </Link>
-                    <Link href="/contato">
-                      <a class="dropdown-item">Envie uma mensagem</a>
-                    </Link>
-
-                  </div>
-                </li> */}
+                <li class="nav-item">
+                  <Link href="/contato">
+                    <a class="nav-link cta-link">Fale conosco</a>
+                  </Link>
+                </li>
               </ul>
             </div>
           </nav>

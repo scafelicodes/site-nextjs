@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import Head from "next/head";
 import "../styles/global.scss";
+import "../styles/hero-home.scss";
 import "../styles/responsive.scss";
 
 import "react-multi-carousel/lib/styles.css";
