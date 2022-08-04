@@ -11,7 +11,7 @@ export default function Sobre() {
       <Header />
 
       <Head>
-        <title>Scafeli: Conheça mais sobre a nossa história</title>
+        <title>Gustavo Scafeli: Conheça mais sobre a minha história</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <section className="about-page">

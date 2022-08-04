@@ -9,6 +9,7 @@ body {
   font-family: $primary-font;
   background-repeat: no-repeat;
   background-position: right top;
+  background-color: #000;
 }
 
 p {
@@ -23,7 +24,27 @@ img {
 .header {
   width: 100%;
   padding: 40px 0;
-  background: #131517;
+  // background: #131517;
+
+  .navbar-brand {
+    display: inline-flex;
+    align-items: center;
+    font-weight: 500;
+    .brand-img {
+      width: 50px;
+      height: 50px;
+      margin-right: 14px;
+      border-radius: 50%;
+      background-color: #f90;
+      background: url("/gustavo-souza.jpg");
+      background-size: cover;
+    }
+    line-height: 1;
+    span {
+      font-weight: 400;
+      font-size: 14px;
+    }
+  }
 
   .navbar {
     @media (min-width: 768px) {
@@ -190,6 +211,21 @@ img {
 }
 
 .about {
+  padding: 100px 0;
+  .content {
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .img-about-cmp {
+    width: 300px;
+    height: 300px;
+    margin-right: 40px;
+    border-radius: 50%;
+    border: 10px solid #14f194;
+  }
   p {
     margin-top: 10px;
     line-height: 1.8;
@@ -198,10 +234,18 @@ img {
     }
   }
 
-  h3 {
-    font-size: 34px;
-    margin-bottom: 18px;
-    font-weight: 400;
+  h1 {
+    font-size: 42px;
+    margin-bottom: 0px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    line-height: 1;
+
+    small {
+      font-size: 22px;
+      font-weight: 400;
+      color: #656d78;
+    }
   }
 }
 
@@ -789,4 +833,88 @@ footer {
       }
     }
   }
+}
+
+.numbers-home {
+  background: #14f194;
+  display: inline-flex;
+  width: 100%;
+  height: 100px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.clients {
+  height: 400px;
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  // border: 1px solid black;
+
+  .clients-list {
+    //   height: 150px;
+    width: 10000px;
+
+    position: absolute;
+    overflow-x: hidden;
+    top: 0;
+    left: 0;
+
+    display: inline-flex;
+    gap: 40px;
+
+    animation: moveSlideshow 10s linear infinite;
+  }
+  margin-top: 100px;
+  width: 100%;
+  display: inline-flex;
+
+  img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 620px;
+    height: 100%;
+    margin: 0;
+    //   opacity: 0.3;
+  }
+
+  @keyframes moveSlideshow {
+    100% {
+      transform: translateX(-500px);
+    }
+  }
+}
+
+.projects-slider {
+  padding: 100px 0;
+  border-top: 1px solid #e9ecef;
+  background-color: #131313;
+  span {
+    color: #9147ff;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    display: inline-block;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    color: #fff;
+    font-size: 42px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    margin-bottom: 20px;
+  }
+}
+
+.blur {
+  background: #9147ff;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border-radius: 50%;
+  filter: blur(300px);
 }

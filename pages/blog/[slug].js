@@ -19,22 +19,24 @@ export default function Post({ post, morePosts, preview }) {
         {router.isFallback ? (
           <PostTitle>Loading…</PostTitle>
         ) : (
-          <div className="container">
-            <article className="single-post">
-              <Head>
-                <title>{post.title} | Scafeli</title>
-                <meta property="og:image" content={post.ogImage.url} />
-              </Head>
-              <PostHeader
-                title={post.title}
-                coverImage={post.coverImage}
-                date={post.date}
-                author={post.author}
-              />
+          <>
+            <Head>
+              <title>{post.title} | Scafeli</title>
+              <meta property="og:image" content={post.ogImage.url} />
+            </Head>
+            <PostHeader
+              title={post.title}
+              coverImage={post.coverImage}
+              date={post.date}
+              author={post.author}
+            />
 
-              <PostBody content={post.content} />
-            </article>
-          </div>
+            <div className="container">
+              <article className="single-post">
+                <PostBody content={post.content} />
+              </article>
+            </div>
+          </>
         )}
       </div>
     </Layout>

@@ -4,21 +4,16 @@ import Link from "next/link";
 export default function Header() {
   const mainmenu = [
     {
-      title: "Empresa",
-      href: "/empresa",
+      title: "Sobre",
+      href: "/sobre",
     },
     {
-      title: "Serviços",
-      href: "/servicos",
+      title: "Cursos",
+      href: "/cursos",
     },
     {
       title: "Blog",
       href: "/blog",
-    },
-    {
-      title: "Trabalhos",
-      href: "/trabalhos",
-      // target: "_blank",
     },
   ];
 
@@ -28,7 +23,10 @@ export default function Header() {
         <div className="container">
           <nav class="navbar navbar-expand-lg navbar-dark">
             <Link href="/">
-              <a class="navbar-brand">Scafeli</a>
+              <a class="navbar-brand">
+                {/* <div className="brand-img" /> */}
+                <div>Gustavo Scafeli</div>
+              </a>
             </Link>
 
             <button
@@ -65,6 +63,8 @@ export default function Header() {
           </nav>
         </div>
       </div>
+
+      <div className="blur" />
     </>
   );
 }

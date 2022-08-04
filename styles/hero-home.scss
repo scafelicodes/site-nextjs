@@ -1,19 +1,32 @@
 .hero-home {
-  padding: 100px 0;
+  height: calc(100vh - 120px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // min-height: 100vh;
 
-  background: #131517;
+  // background: #131517;
+
+  .container {
+    margin-top: -130px;
+  }
   .pre-title {
-    color: #05a6aa;
+    color: #333;
+    background: #14f194;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    padding: 10px 20px;
+    border-radius: 20px;
     text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 12px;
+    font-weight: 600;
     margin-bottom: 10px;
     display: inline-block;
   }
 
   h1 {
     color: #fff;
-    font-size: 50px;
+    font-size: 70px;
     font-weight: 600;
     letter-spacing: -1px;
     margin-bottom: 20px;
@@ -25,7 +38,7 @@
     font-weight: 400;
     line-height: 1.5;
     margin-bottom: 0px;
-    border-left: 4px solid #05a6aa;
+    border-left: 4px solid #9147ff;
     padding-left: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -48,12 +61,12 @@
     button {
       width: 100%;
       height: 50px;
-      background-color: #fb4d63;
+      background-color: #9147ff;
       color: #fff;
       border: none;
 
       &:hover {
-        background-color: #c72237;
+        background-color: #7631dd;
       }
     }
 
@@ -68,48 +81,6 @@
 
       svg {
         margin-right: 10px;
-      }
-    }
-  }
-
-  .clients {
-    height: 400px;
-    max-width: 100%;
-    margin: 0 auto;
-    position: relative;
-    overflow: hidden;
-    // border: 1px solid black;
-
-    .clients-list {
-      //   height: 150px;
-      width: 10000px;
-
-      position: absolute;
-      overflow-x: hidden;
-      top: 0;
-      left: 0;
-
-      display: inline-flex;
-      gap: 40px;
-
-      animation: moveSlideshow 10s linear infinite;
-    }
-    margin-top: 100px;
-    width: 100%;
-    display: inline-flex;
-
-    img {
-      display: inline-block;
-      vertical-align: middle;
-      width: 620px;
-      height: 100%;
-      margin: 0;
-      //   opacity: 0.3;
-    }
-
-    @keyframes moveSlideshow {
-      100% {
-        transform: translateX(-500px);
       }
     }
   }

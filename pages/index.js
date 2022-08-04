@@ -19,7 +19,7 @@ export default function Index() {
   return (
     <>
       <Head>
-        <title>Scafeli — Agência de Marketing e Publicidade</title>
+        <title>Gustavo Scafeli — Front-end Engineer</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta
           name="description"
@@ -36,6 +36,53 @@ export default function Index() {
       {/* <Process /> */}
 
       <HeroHome />
+
+      <section className="numbers-home">
+        <div>1,622</div>
+        <div>3.222</div>
+        <div>$091202</div>
+        <div>3.1319</div>
+      </section>
+
+      <About />
+
+      <section className="projects-slider">
+        <div className="text-center">
+          <span>Método validado</span>
+          <h2>
+            Dezenas de clientes estão aumentando <br />o faturamento com a ajuda
+            da Scafeli
+          </h2>
+        </div>
+        <div className="clients">
+          <div className="clients-list">
+            <img src="/showcase-5.jpg" />
+            <img src="/showcase-5.jpg" />
+            <img src="/showcase-5.jpg" />
+            <img src="/showcase-5.jpg" />
+            <img src="/showcase-5.jpg" />
+            <img src="/showcase-5.jpg" />
+            <img src="/showcase-5.jpg" />
+            <img src="/showcase-5.jpg" />
+            <img src="/showcase-5.jpg" />
+            <img src="/showcase-5.jpg" />
+            <img src="/showcase-5.jpg" />
+            <img src="/showcase-5.jpg" />
+            <img src="/showcase-5.jpg" />
+            <img src="/showcase-5.jpg" />
+            <img src="/showcase-5.jpg" />
+            <img src="/showcase-5.jpg" />
+            <img src="/showcase-5.jpg" />
+            <img src="/showcase-5.jpg" />
+            <img src="/showcase-5.jpg" />
+            <img src="/showcase-5.jpg" />
+            <img src="/showcase-5.jpg" />
+            <img src="/showcase-5.jpg" />
+            <img src="/showcase-5.jpg" />
+            <img src="/showcase-5.jpg" />
+          </div>
+        </div>
+      </section>
 
       <Footer />
     </>

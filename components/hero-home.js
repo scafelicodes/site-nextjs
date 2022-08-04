@@ -6,11 +6,11 @@ export default function HeroHome() {
           <div className="col-md-7">
             <span className="pre-title">Bem-vindo à Scafeli 🤘</span>
 
-            <h1>Somos a sua agência de Marketing de Conversão</h1>
+            <h1>Maker. Gamer. Developer. Noob.</h1>
 
             <p>
-              Criamos estratégias digitais sob medida para sua empresa atingir o
-              máximo potencial.
+              Desenvolvimento front-end está muito além do HTML e CSS. Eu posso
+              ajudar o seu projeto com performance!
             </p>
           </div>
           <div className="col-md-5">
@@ -69,42 +69,6 @@ export default function HeroHome() {
               </div>
             </form>
           </div>
-        </div>
-      </div>
-
-      <div className="text-center">
-        <span>Método validado</span>
-        <h2>
-          Dezenas de clientes estão aumentando <br />o faturamento com a ajuda
-          da Scafeli
-        </h2>
-      </div>
-      <div className="clients">
-        <div className="clients-list">
-          <img src="/showcase-5.jpg" />
-          <img src="/showcase-5.jpg" />
-          <img src="/showcase-5.jpg" />
-          <img src="/showcase-5.jpg" />
-          <img src="/showcase-5.jpg" />
-          <img src="/showcase-5.jpg" />
-          <img src="/showcase-5.jpg" />
-          <img src="/showcase-5.jpg" />
-          <img src="/showcase-5.jpg" />
-          <img src="/showcase-5.jpg" />
-          <img src="/showcase-5.jpg" />
-          <img src="/showcase-5.jpg" />
-          <img src="/showcase-5.jpg" />
-          <img src="/showcase-5.jpg" />
-          <img src="/showcase-5.jpg" />
-          <img src="/showcase-5.jpg" />
-          <img src="/showcase-5.jpg" />
-          <img src="/showcase-5.jpg" />
-          <img src="/showcase-5.jpg" />
-          <img src="/showcase-5.jpg" />
-          <img src="/showcase-5.jpg" />
-          <img src="/showcase-5.jpg" />
-          <img src="/showcase-5.jpg" />
-          <img src="/showcase-5.jpg" />
         </div>
       </div>
     </section>

@@ -6,7 +6,7 @@ export default function Servicos() {
   return (
     <div className="contato">
       <Head>
-        <title>Serviços: Veja como a Scafeli pode te ajudar</title>
+        <title>Serviços: Veja como o Gustavo Scafeli pode te ajudar</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <Header />
